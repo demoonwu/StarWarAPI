@@ -1,0 +1,985 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"if",
+				"if?\t$… = ( … ) ? … : …"
+			],
+			[
+				"contro",
+				"Controller〔class〕"
+			],
+			[
+				"index",
+				"index"
+			],
+			[
+				"ban",
+				"bank_info"
+			],
+			[
+				"CITY",
+				"city_path"
+			],
+			[
+				"te",
+				"TEXT"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"k",
+				"$key〔variable〕"
+			],
+			[
+				"iss",
+				"isset〔function〕"
+			],
+			[
+				"pd",
+				"$pdo〔variable〕"
+			],
+			[
+				"us",
+				"$username〔variable〕"
+			],
+			[
+				"rig",
+				"right_delimiter〔variable〕"
+			],
+			[
+				"cache",
+				"cache_lifetime〔variable〕"
+			],
+			[
+				"setcon",
+				"setConfigDir〔function〕"
+			],
+			[
+				"set",
+				"setCacheDir〔function〕"
+			],
+			[
+				"setcomp",
+				"setCompileDir〔function〕"
+			],
+			[
+				"ima",
+				"imageaffine〔function〕"
+			],
+			[
+				"requ",
+				"require_once〔function〕"
+			],
+			[
+				"func",
+				"function〔keyword〕"
+			],
+			[
+				"reqy",
+				"require_once〔keyword〕"
+			],
+			[
+				"strs",
+				"strstr〔function〕"
+			],
+			[
+				"incl",
+				"include_once〔function〕"
+			],
+			[
+				"requi",
+				"require_once〔function〕"
+			],
+			[
+				"demo",
+				"demoClass"
+			],
+			[
+				"get",
+				"getElementsByTagName〔function〕"
+			],
+			[
+				"ge",
+				"getElementsByTagName〔function〕"
+			],
+			[
+				"dir",
+				"dirname〔function〕"
+			],
+			[
+				"str_re",
+				"str_replace〔function〕"
+			],
+			[
+				"defi",
+				"define〔function〕"
+			],
+			[
+				"con",
+				"$controllerAllow〔variable〕"
+			],
+			[
+				"cont",
+				"controller"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"me",
+				"$method〔variable〕"
+			],
+			[
+				"reqi",
+				"require_once〔keyword〕"
+			],
+			[
+				"reque",
+				"require_once〔function〕"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"dr",
+				"dropdown-menu"
+			],
+			[
+				"button",
+				"button\tTag"
+			],
+			[
+				"check",
+				"checkFn"
+			],
+			[
+				"ch",
+				"checkValue"
+			],
+			[
+				"chec",
+				"checkValue〔variable〕"
+			],
+			[
+				"nex",
+				"next〔function〕"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"inclu",
+				"include_once〔keyword〕"
+			],
+			[
+				"inp",
+				"inputValue"
+			],
+			[
+				"input",
+				"inputMobile"
+			],
+			[
+				"section",
+				"section_box2"
+			],
+			[
+				"remo",
+				"remove〔function〕"
+			],
+			[
+				"edi",
+				"editId〔variable〕"
+			],
+			[
+				"view",
+				"viewDiv"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"uns",
+				"unset〔keyword〕"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"ed",
+				"editSalary"
+			],
+			[
+				"cons",
+				"console.log"
+			],
+			[
+				"complete",
+				"completeHandler"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"sta",
+				"status〔variable〕"
+			],
+			[
+				"del",
+				"delID"
+			],
+			[
+				"par",
+				"parent〔function〕"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"app",
+				"append〔function〕"
+			],
+			[
+				"j",
+				"jquery.js"
+			],
+			[
+				"po",
+				"post〔function〕"
+			],
+			[
+				"auto",
+				"autoRun"
+			],
+			[
+				"doc",
+				"document〔variable〕"
+			],
+			[
+				"mo",
+				"mouseover〔function〕"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"arr",
+				"$array〔variable〕"
+			],
+			[
+				"json",
+				"json_encode〔function〕"
+			],
+			[
+				"re",
+				"requestDemo"
+			],
+			[
+				"sele",
+				"selectStaff"
+			],
+			[
+				"s",
+				"status〔variable〕"
+			],
+			[
+				"staff",
+				"staffJob"
+			],
+			[
+				"fa",
+				"fadeVal"
+			],
+			[
+				"slide",
+				"slideDown〔function〕"
+			],
+			[
+				"div",
+				"divDemoShowAndHide"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"clea",
+				"clear: 〔property〕"
+			],
+			[
+				"un",
+				"undelegate〔function〕"
+			],
+			[
+				"ms",
+				"msg2"
+			],
+			[
+				"off",
+				"off〔function〕"
+			],
+			[
+				"prev",
+				"prevUntil〔function〕"
+			],
+			[
+				"next",
+				"nextUntil〔function〕"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"dv",
+				"divDemo"
+			],
+			[
+				"ul",
+				"ulDemo"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"inner",
+				"wrapInner〔function〕"
+			],
+			[
+				"appen",
+				"appendTo〔function〕"
+			],
+			[
+				"cl",
+				"click〔function〕"
+			],
+			[
+				"position",
+				"position: 〔property〕"
+			],
+			[
+				"sel",
+				"selected"
+			],
+			[
+				"ceh",
+				"checked=〔attribute〕"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"sea",
+				"searchInput"
+			],
+			[
+				"cell",
+				"cellspacing\tAttr"
+			],
+			[
+				"getele",
+				"getElementsByTagName〔function〕"
+			],
+			[
+				"WI",
+				"width"
+			],
+			[
+				"di",
+				"div"
+			],
+			[
+				"na",
+				"navContent_active"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 334.0,
+		"last_filter": "DELE",
+		"selected_items":
+		[
+			[
+				"DELE",
+				"File: Delete"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: RE",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: IS",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"help",
+			"show tables",
+			"show tables;",
+			"dir",
+			"rename",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/xampp/htdocs/StarWar/Zerg/public/info.php",
+		"/D/xampp/htdocs/StarWar/Zerg/thinkphp/start.php",
+		"/D/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/D/xampp/htdocs/StarWar/Zerg/public/info.sublime-project",
+		"/C/Users/DemoonWu-Whaley/AppData/Roaming/Sublime Text 3/Packages/User/Xdebug.sublime-settings",
+		"/D/xampp/php/php.ini",
+		"/C/Users/DemoonWu-Whaley/AppData/Roaming/Sublime Text 3/Packages/HTML/Snippets/html.sublime-snippet",
+		"/C/Users/DemoonWu-Whaley/AppData/Roaming/Sublime Text 3/Packages/HTML/Snippets/html (begin tag).sublime-snippet",
+		"/D/xampp/htdocs/StarWar/Zerg/application/index/info.php",
+		"/C/Program Files/Sublime Text 3/Packages/HTML.sublime-package",
+		"/D/xampp/htdocs/StarWar/Zerg/application/index/controller/Index.php",
+		"/C/Windows/System32/drivers/etc/HOSTS",
+		"/D/xampp/htdocs/StarWar/Zerg/application/index/try.html",
+		"/D/xampp/htdocs/StarWar/Zerg/application/index/controller/try.html",
+		"/C/Users/DemoonWu-Whaley/AppData/Roaming/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/C/Users/DemoonWu-Whaley/AppData/Roaming/Sublime Text 3/Packages/User/HTMLBeautify.sublime-settings",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/application/build.php",
+		"/D/xampp/htdocs/practice/misson13/homework/smarty/sysplugins/smarty_cacheresource_custom.php",
+		"/D/xampp/htdocs/practice/misson13/homework/news/smarty.php",
+		"/D/xampp/htdocs/practice/misson13/homework/smarty/Smarty.class.php",
+		"/D/xampp/htdocs/practice/misson13/jkxySmarty/smartyTwoConfig/smarty/Smarty.class.php",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/public/static/admin/hui/lib/datatables/1.10.0/jquery.dataTables.min.js",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/application/config.php",
+		"/D/xampp/apache/conf/original/extra/httpd-vhosts.conf",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/application/admin/view/public/header.html",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/application/admin/view/index/index.html",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/application/admin/controller/Index.php",
+		"/D/xampp/htdocs/ImoocNuomi/H-ui.admin_v3.0/index.html",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/application/admin/view/public/footer.html",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/.gitignore",
+		"/D/xampp/htdocs/ImoocNuomi/静态资源/后端html代码/主后台模板/index/index.html",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/application/admin/config.php",
+		"/D/xampp/htdocs/ImoocNuomi/静态资源/前端html模板代码/register.html",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/application/index/controller/User.php",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/application/index/view/public/head.html",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/application/index/view/user/register.html",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/application/index/view/user/login.html",
+		"/D/xampp/htdocs/ImoocNuomi/静态资源/前端html模板代码/login.html",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/application/index/view/register.html",
+		"/D/xampp/htdocs/practice/misson13/imooc/mvcDemoOne/demo.php",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/application/index/view/index/index.html",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/application/index/view/public/nav.html",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/application/index/controller/Index.php",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/NuoMi.sql",
+		"/D/xampp/htdocs/ImoocNuomi/静态资源/前端html模板代码/index.html",
+		"/D/xampp/htdocs/ImoocNuomi/讲师项目源码---Thinkphp5.0实战 仿百度糯米开发多商家电商平台/m0tyjl/application/index/controller/Index.php",
+		"/D/xampp/htdocs/ImoocNuomi/NuoMiImooc/project/build.php",
+		"/D/软件开发学习/模版/demoarticle.sql",
+		"/D/xampp/php/composer.bat",
+		"/C/Users/DemoonWu-Whaley/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/D/迅雷下载/visio2016_32_64bit/密码.html",
+		"/D/xampp/htdocs/practice/TryGithub/GithubTry.html",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/xampp/htdocs/index.php",
+		"/D/xampp/htdocs/practice/misson13/homework/news/Template/list.html",
+		"/D/xampp/htdocs/practice/misson13/homework/news/listSmarty.php",
+		"/D/xampp/htdocs/practice/misson13/homework/news/detailSmarty.php",
+		"/D/xampp/htdocs/practice/misson13/homework/news/Template/detail.html",
+		"/D/xampp/htdocs/practice/misson13/homework/news/pdo.php",
+		"/D/xampp/htdocs/practice/misson10/PDO/pdo.php",
+		"/C/Users/DemoonWu-Whaley/Desktop/demoarticle.sql",
+		"/D/xampp/htdocs/practice/misson10/PDO/pdoGetRes.php",
+		"/C/Users/DemoonWu-Whaley/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/D/xampp/htdocs/practice/misson11/homework/Table/table.html",
+		"/D/xampp/htdocs/practice/new/tryDocumentgetelementsbytagname/demo.html",
+		"/D/软件开发学习/PHP 就业班/练习/任务 3 JavaScript对象模型—Tom的书—DOM/添加节点/script/addnode.js",
+		"/D/xampp/htdocs/practice/misson13/jkxySmarty/smartyTwoConfig/smarty/SmartyBC.class.php",
+		"/D/软件开发学习/PHP 就业班/练习/任务 2 JavaScript核心技术 6 课堂作业/2.开发一个简易计算器.html",
+		"/D/软件开发学习/PHP 就业班/练习/任务 4 JavaScript案例实战 5 课堂作业/3.写一个选项卡/js/table.js",
+		"/D/软件开发学习/PHP 就业班/练习/任务 4 JavaScript案例实战 5 课堂作业/4.城市三级联动/js/city.js",
+		"/D/xampp/htdocs/practice/misson13/jkxySmarty/smartyTwoConfig/demoOne/tpl/test.html",
+		"/D/xampp/htdocs/practice/misson13/jkxySmarty/smartyTwoConfig/demoOne/config/test.config",
+		"/D/xampp/htdocs/practice/misson13/jkxySmarty/smartyTwoConfig/demoOne/test.php",
+		"/D/xampp/htdocs/practice/misson13/jkxySmarty/smartyTwoConfig/demoOne/cache/cdbb2e87e8415f166be44c6445a5e6310add26e1.test.html.php",
+		"/D/xampp/htdocs/practice/misson13/imoocSmarty/smartyTwo/demoTwo/tpl/demo.tpl",
+		"/C/Users/DemoonWu-Whaley/Desktop/PHP代码书写技巧.txt",
+		"/D/xampp/htdocs/practice/misson13/imoocSmarty/smartyTwo/demoTwo/test.php",
+		"/D/xampp/htdocs/practice/misson13/imoocSmarty/smartyOne/demoOne/tpl/demo.tpl",
+		"/D/xampp/htdocs/practice/misson13/imoocSmarty/smartyOne/demoOne/test.php",
+		"/D/xampp/htdocs/practice/misson13/imooc/mvcDemoTwo/libs/controller/demoController.class.php",
+		"/D/xampp/htdocs/practice/misson13/imooc/mvcDemoTwo/libs/view/demoView.class.php",
+		"/D/xampp/htdocs/practice/misson13/imooc/mvcDemoTwo/libs/model/demoModel.class.php",
+		"/D/xampp/htdocs/practice/misson13/imooc/mvcDemoTwo/start.php",
+		"/D/xampp/htdocs/practice/misson13/imooc/mvcDemoTwo/function.php",
+		"/D/xampp/htdocs/practice/misson13/imooc/mvcDemoOne/demoView.class.php",
+		"/D/xampp/htdocs/practice/misson13/imooc/mvcDemoOne/demoModel.class.php",
+		"/D/xampp/htdocs/practice/misson13/imooc/mvcDemoOne/demoController.class.php",
+		"/D/xampp/htdocs/practice/misson12/homework/article/index.html",
+		"/D/xampp/htdocs/practice/misson12/homework/technology/index.html",
+		"/D/软件开发学习/PHP 就业班/资料/下载的/install_vnc_server/install_vnc_server/install_vnc_server.sh",
+		"/D/xampp/htdocs/practice/misson12/mooc/practice3-13/index.html",
+		"/D/xampp/htdocs/practice/misson12/mooc/编程挑战(基于bootstrap网页开发)/编程挑战(基于bootstrap网页开发).html",
+		"/D/xampp/htdocs/practice/misson12/mooc/practice3-8/index.html",
+		"/D/xampp/htdocs/practice/misson12/mooc/practice3-6/index.html",
+		"/D/xampp/htdocs/practice/misson12/mooc/practice3-4/index.html",
+		"/D/xampp/htdocs/practice/misson12/mooc/lesson3/index.html",
+		"/D/xampp/htdocs/practice/misson12/mooc/第2章 编程练习(参考代码)/编辑练习.html",
+		"/D/xampp/htdocs/practice/misson11/homework/register/js/app.js",
+		"/D/xampp/htdocs/practice/misson11/homework/register/xuebiancheng.html",
+		"/D/xampp/htdocs/practice/misson12/bootstrap.html",
+		"/D/xampp/htdocs/practice/misson11/homework/register/server.php",
+		"/D/xampp/htdocs/practice/misson11/homework/register/public/pdodbconnect.php",
+		"/D/xampp/htdocs/practice/misson11/homework/Table/demoOn.html",
+		"/D/xampp/htdocs/practice/misson11/homework/Table/server.php",
+		"/D/xampp/htdocs/practice/misson11/homework/tableDemo/code/newetabel/index.html",
+		"/D/xampp/htdocs/practice/misson11/homework/tableDemo/code/newetabel/js/app.js",
+		"/D/xampp/htdocs/practice/misson11/homework/Image Carousel/unslider.css",
+		"/D/xampp/htdocs/practice/misson11/homework/pic/unslider.css",
+		"/D/xampp/htdocs/practice/misson11/homework/pic/pic.html",
+		"/D/xampp/htdocs/practice/misson11/homework/Image Carousel/unslider.js",
+		"/D/xampp/htdocs/practice/misson11/homework/Image Carousel/pic.html",
+		"/D/xampp/htdocs/practice/misson11/homework/pic/unslider.js",
+		"/D/xampp/htdocs/practice/misson11/lesson9Ajax/day5JSONAjax/form.html",
+		"/D/xampp/htdocs/practice/misson11/lesson9Ajax/day5JSONAjax/serverOne.php",
+		"/D/xampp/htdocs/practice/misson11/homework/unslider-master/src/js/unslider.js",
+		"/D/xampp/htdocs/practice/misson11/homework/unslider-master/src/scss/unslider.css",
+		"/D/xampp/htdocs/practice/misson11/homework/unslider-master/package.json",
+		"/D/xampp/htdocs/practice/misson11/homework/unslider-master/bower.json",
+		"/D/xampp/htdocs/practice/misson11/lesson9Ajax/day4JqueryAjax/form.html",
+		"/D/xampp/htdocs/practice/misson11/lesson9Ajax/day4JqueryAjax/serverOne.php",
+		"/D/xampp/htdocs/practice/misson11/lesson9Ajax/day3AjaxSelf/form.html",
+		"/D/xampp/htdocs/practice/misson11/lesson9Ajax/day3JqueryAjax/form.html",
+		"/D/xampp/htdocs/practice/misson11/lesson9Ajax/day2NewDemo/form.html",
+		"/D/xampp/htdocs/practice/misson11/lesson9Ajax/day3JqueryAjax/serverOne.php",
+		"/D/xampp/htdocs/practice/misson11/lesson9Ajax/day1NewXmlHttpRequest.html",
+		"/D/xampp/htdocs/practice/misson11/lesson8/day1BasicAnimation/day1.html",
+		"/D/xampp/htdocs/practice/misson11/lesson8/day2SlideAnimation/day2.html",
+		"/D/xampp/htdocs/practice/misson11/lesson8/day3FadeAnimation/day3.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+			"D:\\xampp\\htdocs\\ImoocNuomi\\NuoMiImooc\\project",
+			"D:\\xampp\\htdocs\\practice\\new"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\",
+			"index",
+			"VALIDATE",
+			"validate",
+			"VALIDATE",
+			"Validate",
+			"valiadate",
+			"admin",
+			"218.93.127.136",
+			"dummy-host2.example",
+			"##",
+			"#",
+			"img",
+			"nav",
+			"head",
+			"index",
+			"image/",
+			"js/",
+			"__STATIC__/index/",
+			"__STATIC",
+			"css/",
+			"image/",
+			"js/",
+			"css/",
+			"register",
+			"image/",
+			"static",
+			"js/",
+			"js",
+			"css/",
+			"parent_id",
+			"')",
+			"('",
+			"`0.00`",
+			"`)",
+			"(`",
+			"``",
+			"'",
+			"50",
+			"username",
+			"50",
+			"username",
+			"status",
+			"ser",
+			"username",
+			"parent_id",
+			"50",
+			"username",
+			"name",
+			"category_id",
+			"bis_id",
+			"city_id",
+			"description",
+			"UNSIGNED",
+			"update_time",
+			"coupons_begin_time",
+			"city_id",
+			"money",
+			"UNSIGNED",
+			"content",
+			"255",
+			"logo",
+			"255",
+			"logo",
+			"UNSIGNED",
+			"bis_id",
+			"category_id",
+			"bis_id",
+			"username",
+			"parent_id",
+			"category_path",
+			"INT",
+			"UNSIGNED",
+			"create_time",
+			"UNSIGNED",
+			"create_time",
+			"INT",
+			"create_time",
+			"contact",
+			"address",
+			"name",
+			"username",
+			"o2o_bis_account",
+			"name",
+			"VARCHAR",
+			"username",
+			"VARCHAR",
+			"username",
+			"VARCHAR",
+			"username",
+			"city_id",
+			"city_path",
+			"VARCHAR",
+			"city_path",
+			"BANK_INFO",
+			"city_path",
+			"UNSIGNE",
+			"11",
+			"VARCHAR",
+			"name",
+			"50",
+			"name",
+			"parent_id",
+			"cit",
+			"parent_id",
+			"# ",
+			"218",
+			"692",
+			"data",
+			"$data",
+			"title",
+			"gb",
+			"passwd",
+			"\\",
+			"div",
+			"subject",
+			"replace",
+			"(\\\\,",
+			"replace",
+			"controller",
+			"haystack",
+			"./",
+			"model",
+			"ClassName",
+			"AnotherClass",
+			"extends",
+			"ClassName",
+			"bs-example-navbar-collapse-1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "info.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"15":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"16":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"19":
+				{
+					"group": 0,
+					"index": 2
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 295.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
