@@ -242,3 +242,1115 @@
 )
 [ info ] [ RUN ] app\sample\controller\Test->hello[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:27:15+08:00 ] 0.0.0.0 ::1 GET /sample/test/hello
+[ info ] localhost:8080/sample/test/hello [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,159.84kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:27:25+08:00 ] 0.0.0.0 ::1 GET /hello
+[ info ] localhost:8080/hello [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,117.13kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:29:03+08:00 ] 0.0.0.0 ::1 GET /getvar
+[ info ] localhost:8080/getvar [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,119.57kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:29:10+08:00 ] 0.0.0.0 ::1 GET /getvar
+[ info ] localhost:8080/getvar [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,118.82kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b5faf36f-05f9-470d-8e51-1a9fec93a969',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'localhost:8080',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:30:38+08:00 ] 0.0.0.0 ::1 GET /getvar/123
+[ info ] localhost:8080/getvar/123 [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,120.33kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:30:53+08:00 ] 0.0.0.0 ::1 GET /getvar/123
+[ info ] localhost:8080/getvar/123 [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：1,120.55kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:31:29+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,120.50kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:32:00+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,120.97kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:32:39+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,120.96kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:32:41+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,120.96kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:32:50+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,120.96kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:34:17+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,180.19kb] [文件加载：33]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\controller\Request' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:16]
+---------------------------------------------------------------
+[ 2017-05-14T23:34:38+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,180.24kb] [文件加载：33]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\controller\Request' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:16]
+---------------------------------------------------------------
+[ 2017-05-14T23:35:39+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,180.38kb] [文件加载：33]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Trait 'app\sample\controller\think\Request' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:13]
+---------------------------------------------------------------
+[ 2017-05-14T23:35:58+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,180.38kb] [文件加载：33]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Trait 'app\sample\controller\think\Request' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:13]
+---------------------------------------------------------------
+[ 2017-05-14T23:36:19+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,121.28kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:36:35+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,121.22kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:37:05+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,121.22kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:38:14+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,121.00kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:38:16+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,121.00kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:38:33+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,120.97kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:38:34+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,120.97kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:38:49+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,121.32kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:40:32+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,121.48kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:41:00+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,121.48kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:41:01+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,121.48kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:41:21+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,159.30kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]Class app\sample\controller\Request does not exist[D:\xampp\htdocs\StarWar\Zerg\thinkphp\library\think\App.php:259]
+---------------------------------------------------------------
+[ 2017-05-14T23:41:53+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,121.48kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:42:03+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,121.52kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:42:20+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,176.56kb] [文件加载：33]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant param - assumed 'param'[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:23]
+---------------------------------------------------------------
+[ 2017-05-14T23:43:38+08:00 ] 0.0.0.0 ::1 POST /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,161.27kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:43:59+08:00 ] 0.0.0.0 ::1 POST /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,161.31kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:44:10+08:00 ] 0.0.0.0 ::1 POST /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,161.31kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:44:11+08:00 ] 0.0.0.0 ::1 POST /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,161.31kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:44:18+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,121.48kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:44:36+08:00 ] 0.0.0.0 ::1 POST /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,161.27kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:44:37+08:00 ] 0.0.0.0 ::1 POST /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,161.31kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:44:44+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,120.35kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6a733619-2f4d-4fc4-b201-f6669c26c5ef',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'localhost:8080',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:44:50+08:00 ] 0.0.0.0 ::1 POST /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,161.31kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:44:58+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,120.35kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9c942a29-130b-407c-8d20-6b3a6a357927',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'localhost:8080',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:45:53+08:00 ] 0.0.0.0 ::1 POST /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,120.66kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3d90e80b-9273-41b7-8ce3-74346771f78e',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'localhost:8080',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:45:58+08:00 ] 0.0.0.0 ::1 GET /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,161.22kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:46:01+08:00 ] 0.0.0.0 ::1 POST /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,120.66kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '492b7d7e-4675-475d-8e00-9d15f8762d16',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'localhost:8080',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-14T23:46:57+08:00 ] 0.0.0.0 ::1 POST /getvar/123?name=589
+[ info ] localhost:8080/getvar/123?name=589 [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,120.69kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2db4fb8d-5cb2-4b21-bdc0-3277d41fd1b9',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'localhost:8080',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '589',
+  'id' => '123',
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
