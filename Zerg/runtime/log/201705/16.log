@@ -1,0 +1,610 @@
+---------------------------------------------------------------
+[ 2017-05-16T10:14:17+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] wuyongwei.com/ [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,126.01kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:14:18+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,191.90kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'use' (T_USE)[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:31]
+---------------------------------------------------------------
+[ 2017-05-16T10:14:38+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,188.04kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Trait 'app\sample\controller\app\sample\validate\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:30]
+---------------------------------------------------------------
+[ 2017-05-16T10:15:33+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.037003s][吞吐率：27.02req/s] [内存消耗：1,328.33kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:15:46+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,188.04kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Trait 'app\sample\controller\app\sample\validate\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:30]
+---------------------------------------------------------------
+[ 2017-05-16T10:16:15+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,328.33kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:16:18+08:00 ] 127.0.0.1 127.0.0.1 GET /get
+[ info ] wuyongwei.com/get [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,168.66kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'get',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:16:24+08:00 ] 127.0.0.1 127.0.0.1 GET /getVar
+[ info ] wuyongwei.com/getVar [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,168.67kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'getVar',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:16:44+08:00 ] 127.0.0.1 127.0.0.1 GET /getvar
+[ info ] wuyongwei.com/getvar [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,168.67kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'getvar',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:17:05+08:00 ] 127.0.0.1 127.0.0.1 GET /getvar
+[ info ] wuyongwei.com/getvar [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,169.50kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'getvar',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:17:06+08:00 ] 127.0.0.1 127.0.0.1 GET /getvar
+[ info ] wuyongwei.com/getvar [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,169.50kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'getvar',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:17:30+08:00 ] 127.0.0.1 127.0.0.1 GET /getvar
+[ info ] wuyongwei.com/getvar [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,169.50kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'getvar',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:17:58+08:00 ] 127.0.0.1 127.0.0.1 GET /getinfo
+[ info ] wuyongwei.com/getinfo [运行时间：0.038003s][吞吐率：26.31req/s] [内存消耗：1,219.06kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->getInfo[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:18:16+08:00 ] 127.0.0.1 127.0.0.1 GET /getvar
+[ info ] wuyongwei.com/getvar [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,169.32kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'getvar',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:18:31+08:00 ] 127.0.0.1 127.0.0.1 GET /getvar
+[ info ] wuyongwei.com/getvar [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,168.91kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'getvar',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:18:32+08:00 ] 127.0.0.1 127.0.0.1 GET /getvar
+[ info ] wuyongwei.com/getvar [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,168.90kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'getvar',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:19:00+08:00 ] 127.0.0.1 127.0.0.1 GET /getvar
+[ info ] wuyongwei.com/getvar [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,131.05kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getvar',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->getvar[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:20:57+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,328.13kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:21:13+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,328.33kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T10:21:14+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,328.33kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T11:04:37+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,328.33kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-16T11:06:55+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,328.13kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s4539400192',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,2329 @@
+---------------------------------------------------------------
+[ 2017-05-15T18:32:20+08:00 ] 0.0.0.0 ::1 GET /sample/test/hello
+[ info ] localhost:8080/sample/test/hello [运行时间：0.068003s][吞吐率：14.71req/s] [内存消耗：1,162.58kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T18:32:51+08:00 ] 0.0.0.0 ::1 GET /banner
+[ info ] localhost:8080/banner [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：1,162.54kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T18:32:55+08:00 ] 0.0.0.0 ::1 GET /banner
+[ info ] localhost:8080/banner [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,162.59kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T18:33:28+08:00 ] 0.0.0.0 ::1 GET /hello
+[ info ] localhost:8080/hello [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,121.21kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'hello',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->hello[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T18:33:33+08:00 ] 0.0.0.0 ::1 GET /banner
+[ info ] localhost:8080/banner [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,162.54kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T18:34:09+08:00 ] 0.0.0.0 ::1 GET /banner
+[ info ] localhost:8080/banner [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,162.59kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T18:34:45+08:00 ] 0.0.0.0 ::1 GET /banner
+[ info ] localhost:8080/banner [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,165.00kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T18:36:03+08:00 ] 0.0.0.0 ::1 GET /banner
+[ info ] localhost:8080/banner [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,166.17kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T18:36:05+08:00 ] 0.0.0.0 ::1 GET /banner
+[ info ] localhost:8080/banner [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,166.17kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T18:36:33+08:00 ] 0.0.0.0 ::1 GET /banner
+[ info ] localhost:8080/banner [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,166.37kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T18:36:34+08:00 ] 0.0.0.0 ::1 GET /banner
+[ info ] localhost:8080/banner [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,166.37kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T18:37:44+08:00 ] 0.0.0.0 ::1 GET /banner
+[ info ] localhost:8080/banner [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,158.95kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\xampp\htdocs\StarWar\Zerg\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2017-05-15T18:37:53+08:00 ] 0.0.0.0 ::1 GET /banner
+[ info ] localhost:8080/banner [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,120.84kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:24:38+08:00 ] 0.0.0.0 ::1 GET /sample/test/tryValidate
+[ info ] localhost:8080/sample/test/tryValidate [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,163.31kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:25:23+08:00 ] 0.0.0.0 ::1 GET /tryValidate
+[ info ] localhost:8080/tryValidate [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,309.74kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:25:47+08:00 ] 0.0.0.0 ::1 GET /tryValidate
+[ info ] localhost:8080/tryValidate [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,310.37kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:26:34+08:00 ] 0.0.0.0 ::1 GET /tryValidate
+[ info ] localhost:8080/tryValidate [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,310.37kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:26:34+08:00 ] 0.0.0.0 ::1 GET /tryValidate
+[ info ] localhost:8080/tryValidate [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,310.37kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:26:35+08:00 ] 0.0.0.0 ::1 GET /tryValidate
+[ info ] localhost:8080/tryValidate [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：1,310.37kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:26:56+08:00 ] 0.0.0.0 ::1 GET /tryValidate
+[ info ] localhost:8080/tryValidate [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,310.37kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:27:14+08:00 ] 0.0.0.0 ::1 GET /tryValidate
+[ info ] localhost:8080/tryValidate [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,309.24kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:27:30+08:00 ] 0.0.0.0 ::1 GET /tryValidate
+[ info ] localhost:8080/tryValidate [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,309.26kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:29:23+08:00 ] 0.0.0.0 ::1 GET /tryValidate
+[ info ] localhost:8080/tryValidate [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,310.96kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:29:44+08:00 ] 0.0.0.0 ::1 GET /tryValidate
+[ info ] localhost:8080/tryValidate [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,310.85kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:30:04+08:00 ] 0.0.0.0 ::1 GET /tryValidate
+[ info ] localhost:8080/tryValidate [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：1,371.00kb] [文件加载：34]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method think\Validate::banch()[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:38]
+---------------------------------------------------------------
+[ 2017-05-15T20:30:20+08:00 ] 0.0.0.0 ::1 GET /tryValidate
+[ info ] localhost:8080/tryValidate [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,311.10kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:34:26+08:00 ] 0.0.0.0 ::1 GET /getInfo
+[ info ] localhost:8080/getInfo [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,209.23kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->getInfo[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:37:20+08:00 ] 0.0.0.0 ::1 GET /getInfo
+[ info ] localhost:8080/getInfo [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,209.58kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->getInfo[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:37:27+08:00 ] ::1 ::1 GET /getInfo
+[ info ] localhost/getInfo [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,218.46kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'getInfo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->getInfo[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:42:50+08:00 ] ::1 ::1 GET /zerg/public/index.php
+[ info ] localhost/zerg/public/index.php [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,168.44kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:43:32+08:00 ] 127.0.0.1 127.0.0.1 GET /zerg/public/index.php
+[ info ] 127.0.0.1/zerg/public/index.php [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,168.40kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:43:38+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,168.30kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:43:42+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,168.37kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:43:54+08:00 ] ::1 ::1 GET /
+[ info ] localhost/ [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,168.38kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:45:48+08:00 ] ::1 ::1 GET /zerg/public/index.php?XDEBUG_SESSION_START=10258
+[ info ] localhost/zerg/public/index.php?XDEBUG_SESSION_START=10258 [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：1,168.45kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:46:15+08:00 ] ::1 ::1 GET /zerg/public/index.php?XDEBUG_SESSION_START=17526
+[ info ] localhost/zerg/public/index.php?XDEBUG_SESSION_START=17526 [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,168.45kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:46:56+08:00 ] ::1 ::1 GET /zerg/public/index.php?XDEBUG_SESSION_START=17526
+[ info ] localhost/zerg/public/index.php?XDEBUG_SESSION_START=17526 [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,169.32kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'zerg',
+    1 => 'public',
+    2 => 'index.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168; XDEBUG_SESSION=17526',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '17526',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:48:03+08:00 ] 127.0.0.1 127.0.0.1 GET /zerg/public/index.php?XDEBUG_SESSION_START=17526
+[ info ] 127.0.0.1/zerg/public/index.php?XDEBUG_SESSION_START=17526 [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,168.81kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'zerg',
+    1 => 'public',
+    2 => 'index.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '17526',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:48:45+08:00 ] 127.0.0.1 127.0.0.1 GET /zerg/public/index.php?XDEBUG_SESSION_START=17526
+[ info ] 127.0.0.1/zerg/public/index.php?XDEBUG_SESSION_START=17526 [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,169.23kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'zerg',
+    1 => 'public',
+    2 => 'index.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'XDEBUG_SESSION=17526',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '17526',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:48:47+08:00 ] 127.0.0.1 127.0.0.1 GET /zerg/public/index.php?XDEBUG_SESSION_START=17526
+[ info ] 127.0.0.1/zerg/public/index.php?XDEBUG_SESSION_START=17526 [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,169.23kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'zerg',
+    1 => 'public',
+    2 => 'index.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'XDEBUG_SESSION=17526',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '17526',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:48:49+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,125.94kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'XDEBUG_SESSION=17526',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:48:55+08:00 ] 0.0.0.0 ::1 GET /
+[ info ] localhost:8080/ [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,124.85kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168; XDEBUG_SESSION=17526',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:49:02+08:00 ] 0.0.0.0 ::1 GET /
+[ info ] localhost:8080/ [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,124.85kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=9709575168; XDEBUG_SESSION=17526',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:53:33+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,126.16kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'XDEBUG_SESSION=17526',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:53:36+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,126.16kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'XDEBUG_SESSION=17526',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:53:37+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,126.16kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'XDEBUG_SESSION=17526',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T20:54:12+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,126.16kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'XDEBUG_SESSION=17526',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:02:19+08:00 ] 127.0.0.1 127.0.0.1 GET /dashboard/
+[ info ] wuyongwei.com/dashboard/ [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,169.21kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'dashboard',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'if-none-match' => '"1af8-54189b2d23980"',
+  'if-modified-since' => 'Fri, 18 Nov 2016 02:02:30 GMT',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:02:20+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] wuyongwei.com/ [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,125.73kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:04:11+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php
+[ info ] localhost/starwar/zerg/public/index.php [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,125.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:04:27+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=14658
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=14658 [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,126.47kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '14658',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:04:43+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=12663
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=12663 [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,126.50kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=14658',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '12663',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:05:11+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=14468
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=14468 [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,126.50kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=12663',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '14468',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:11:10+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=14682
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=14682 [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,126.50kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=14468',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '14682',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:11:41+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=13614
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=13614 [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,126.50kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=14682',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '13614',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:12:25+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=13614
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=13614 [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,126.80kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=13614',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '13614',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:13:24+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=18505
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=18505 [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,126.50kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=13614',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '18505',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:13:33+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=16471
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=16471 [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,126.50kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=18505',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '16471',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:15:06+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=13614
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=13614 [运行时间：0.220013s][吞吐率：4.55req/s] [内存消耗：1,126.86kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=16471',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '13614',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:17:21+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=16621
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=16621 [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,126.50kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=13614',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '16621',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:17:36+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=13046
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=13046 [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,126.50kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=16621',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '13046',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:17:42+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=13849
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=13849 [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,126.50kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=13046',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '13849',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:18:23+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=14802
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=14802 [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,126.50kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=13849',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '14802',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:21:12+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=16141
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=16141 [运行时间：79.540549s][吞吐率：0.01req/s] [内存消耗：1,128.50kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=14802',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '16141',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:21:58+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=10261
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=10261 [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,126.50kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=14802',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '10261',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:22:29+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=10261
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=10261 [运行时间：16.246929s][吞吐率：0.06req/s] [内存消耗：1,128.80kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=10261',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '10261',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:26:25+08:00 ] ::1 ::1 GET /starwar/zerg/public/index.php?XDEBUG_SESSION_START=13996
+[ info ] localhost/starwar/zerg/public/index.php?XDEBUG_SESSION_START=13996 [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,126.50kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=7822213120; pgv_si=s2692426752; XDEBUG_SESSION=10261',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '13996',
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:27:25+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] wuyongwei.com/ [运行时间：0.017001s][吞吐率：58.82req/s] [内存消耗：1,125.98kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\xampp\htdocs\StarWar\Zerg\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:27:44+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,314.48kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T21:28:33+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate?XDEBUG_SESSION_START=13996
+[ info ] wuyongwei.com/tryValidate?XDEBUG_SESSION_START=13996 [运行时间：42.889453s][吞吐率：0.02req/s] [内存消耗：1,316.65kb] [文件加载：29]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '13996',
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-15T22:23:30+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,188.09kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936; XDEBUG_SESSION=13996',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\controller\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:44]
+---------------------------------------------------------------
+[ 2017-05-15T22:24:07+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,193.77kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936; XDEBUG_SESSION=13996',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'use' (T_USE), expecting \\ (T_NS_SEPARATOR) or ';' or '{'[D:\xampp\htdocs\StarWar\Zerg\application\sample\validate\TestValidate.php:10]
+---------------------------------------------------------------
+[ 2017-05-15T22:24:33+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,193.69kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936; XDEBUG_SESSION=13996',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'use' (T_USE), expecting \\ (T_NS_SEPARATOR) or ';' or '{'[D:\xampp\htdocs\StarWar\Zerg\application\sample\validate\TestValidate.php:10]
+---------------------------------------------------------------
+[ 2017-05-15T22:25:21+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,194.70kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936; XDEBUG_SESSION=13996',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'protect' (T_STRING), expecting function (T_FUNCTION)[D:\xampp\htdocs\StarWar\Zerg\application\sample\validate\TestValidate.php:12]
+---------------------------------------------------------------
+[ 2017-05-15T22:25:36+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,385.65kb] [文件加载：34]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936; XDEBUG_SESSION=13996',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\validate\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:26:46+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,188.32kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936; XDEBUG_SESSION=13996',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\controller\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:27:47+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,188.33kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936; XDEBUG_SESSION=13996',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\controller\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:28:10+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,184.33kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936; XDEBUG_SESSION=13996',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Cannot use app\sample\validate as validate because the name is already in use[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:5]
+---------------------------------------------------------------
+[ 2017-05-15T22:28:56+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,188.26kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\controller\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:32:43+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,188.29kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\controller\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:38:40+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,385.61kb] [文件加载：34]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\validate\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:39:24+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,188.30kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'application\sample\validate\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:41:15+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,385.57kb] [文件加载：34]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\validate\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:41:16+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,385.57kb] [文件加载：34]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\validate\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:41:17+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,385.57kb] [文件加载：34]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\validate\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:41:18+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,385.57kb] [文件加载：34]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\validate\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:45:31+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,188.25kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\controller\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:45:34+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,188.25kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\controller\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:45:44+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,385.57kb] [文件加载：34]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\validate\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:46:00+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,188.25kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\controller\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:46:39+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,385.57kb] [文件加载：34]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\sample\validate\TestValidate' not found[D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php:45]
+---------------------------------------------------------------
+[ 2017-05-15T22:48:07+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,328.33kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928; pgv_si=s7573671936',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
