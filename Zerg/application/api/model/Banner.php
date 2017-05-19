@@ -9,7 +9,7 @@
 namespace  app\api\model;
 class Banner{
     
-    public function getBannerById($id){
+    public static function getBannerById($id){
        return "这是banner的信息";
     }
 }

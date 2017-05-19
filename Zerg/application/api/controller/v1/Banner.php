@@ -13,16 +13,19 @@ use app\api\model\Banner as BannerModel;
 
 class Banner{
     
-    function getBanner(){
-       echo "路由通过";
+    function getBanner($id){
+    	(new IdMustBePositiveInteger())->gocheck();
+    	$banner=BannerModel::getBannerById($id);
+       //echo "路由通过";
+    	return json($banner);
     }
 
     function tryNewValidate(){
     	$data= Request::instance()->param();
-    	var_dump($data);
+    	//var_dump($data);
     	// IdMustBePositiveInteger::interface()->gocheck();
-    	(new IdMustBePositiveInteger)->gocheck();
+    	(new IdMustBePositiveInteger())->gocheck();
     	echo "新的验证层";
-    	return json()
+    	return json();
     }
 }

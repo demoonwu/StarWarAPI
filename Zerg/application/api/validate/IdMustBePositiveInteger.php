@@ -7,7 +7,7 @@
  * @版本: $Id$
  */
 namespace app\api\validate;
-//use think\Validate;
+// use think\Validate;  //这一行可以注释掉因为在basevalidate中已经使用了命名空间
 class IdMustBePositiveInteger extends BaseValidate {
     protected $rule=[
     	'id'=>'require|isPositiveInteger'

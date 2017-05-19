@@ -52,3 +52,209 @@
 )
 [ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-19T14:38:07+08:00 ] 127.0.0.1 127.0.0.1 GET /banner
+[ info ] wuyongwei.com/banner [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,194.20kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '}'[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:28]
+---------------------------------------------------------------
+[ 2017-05-19T14:38:34+08:00 ] 127.0.0.1 127.0.0.1 GET /banner
+[ info ] wuyongwei.com/banner [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,168.63kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\xampp\htdocs\StarWar\Zerg\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2017-05-19T14:38:39+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ info ] wuyongwei.com/banner/1 [运行时间：0.033001s][吞吐率：30.30req/s] [内存消耗：1,169.00kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\xampp\htdocs\StarWar\Zerg\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2017-05-19T14:39:48+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ info ] wuyongwei.com/banner/1 [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,169.61kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]方法参数错误:id[D:\xampp\htdocs\StarWar\Zerg\thinkphp\library\think\App.php:281]
+---------------------------------------------------------------
+[ 2017-05-19T14:41:55+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ info ] wuyongwei.com/banner/1 [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,402.55kb] [文件加载：36]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Non-static method app\api\model\Banner::getBannerById() should not be called statically, assuming $this from incompatible context[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:18]
+---------------------------------------------------------------
+[ 2017-05-19T14:42:31+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ info ] wuyongwei.com/banner/1 [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,349.55kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-19T14:43:16+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ info ] wuyongwei.com/banner/1 [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,358.69kb] [文件加载：33]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
