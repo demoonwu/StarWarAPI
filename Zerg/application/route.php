@@ -16,3 +16,4 @@ Route::rule('tryValidate','sample/Test/tryValidate');
 Route::rule('getInfo','sample/Test/getInfo');
 Route::post('getvar/:id','sample/Test/getvar');
 Route::rule('banner','api/v1.Banner/getBanner');
+Route::rule('tryNewValidate/:id','api/v1.Banner/tryNewValidate');

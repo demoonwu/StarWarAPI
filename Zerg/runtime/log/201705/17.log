@@ -1,0 +1,662 @@
+---------------------------------------------------------------
+[ 2017-05-17T17:52:00+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：1,328.34kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-17T17:52:46+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,328.34kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-17T17:52:47+08:00 ] 127.0.0.1 127.0.0.1 GET /tryValidate
+[ info ] wuyongwei.com/tryValidate [运行时间：0.019002s][吞吐率：52.63req/s] [内存消耗：1,328.34kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'sample',
+    1 => 'Test',
+    2 => 'tryValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\sample\controller\Test->tryValidate[ D:\xampp\htdocs\StarWar\Zerg\application\sample\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-17T17:53:58+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate
+[ info ] wuyongwei.com/tryNewValidate [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,128.30kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-17T17:54:23+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.018002s][吞吐率：55.55req/s] [内存消耗：1,129.47kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-17T17:54:59+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,187.43kb] [文件加载：32]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function app\api\controller\v1\param()[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:18]
+---------------------------------------------------------------
+[ 2017-05-17T17:56:10+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,130.38kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-17T17:56:25+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.037003s][吞吐率：27.02req/s] [内存消耗：1,130.71kb] [文件加载：28]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-17T18:00:21+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,203.30kb] [文件加载：33]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '}'[D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:23]
+---------------------------------------------------------------
+[ 2017-05-17T18:00:51+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,404.63kb] [文件加载：35]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\validate\IdMustBePositiveInteger' not found[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:21]
+---------------------------------------------------------------
+[ 2017-05-17T18:01:12+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,404.63kb] [文件加载：35]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\validate\IdMustBePositiveInteger' not found[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:21]
+---------------------------------------------------------------
+[ 2017-05-17T18:01:13+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,404.63kb] [文件加载：35]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\validate\IdMustBePositiveInteger' not found[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:21]
+---------------------------------------------------------------
+[ 2017-05-17T18:01:14+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,404.63kb] [文件加载：35]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\validate\IdMustBePositiveInteger' not found[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:21]
+---------------------------------------------------------------
+[ 2017-05-17T18:03:45+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,404.53kb] [文件加载：35]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\validate\IdMustBePositiveInteger' not found[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:21]
+---------------------------------------------------------------
+[ 2017-05-17T18:03:46+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,404.53kb] [文件加载：35]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\api\validate\IdMustBePositiveInteger' not found[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:21]
+---------------------------------------------------------------
+[ 2017-05-17T18:04:30+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,347.54kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-17T18:04:46+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/0.1
+[ info ] wuyongwei.com/tryNewValidate/0.1 [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,392.04kb] [文件加载：34]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '0.1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]id必须是正整数[D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:22]
+---------------------------------------------------------------
+[ 2017-05-17T18:05:21+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,193.88kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'interface' (T_INTERFACE)[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:21]
+---------------------------------------------------------------
+[ 2017-05-17T18:05:43+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.022002s][吞吐率：45.45req/s] [内存消耗：1,347.54kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-17T18:07:50+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,347.57kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-17T18:07:52+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.018001s][吞吐率：55.55req/s] [内存消耗：1,347.57kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-17T18:07:52+08:00 ] 127.0.0.1 127.0.0.1 GET /tryNewValidate/1
+[ info ] wuyongwei.com/tryNewValidate/1 [运行时间：0.019002s][吞吐率：52.63req/s] [内存消耗：1,347.78kb] [文件加载：31]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'tryNewValidate',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->tryNewValidate[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
