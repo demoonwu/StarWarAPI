@@ -258,3 +258,151 @@
 )
 [ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-19T14:46:20+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ info ] wuyongwei.com/banner/1 [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,402.88kb] [文件加载：36]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[D:\xampp\htdocs\StarWar\Zerg\application\api\model\Banner.php:14]
+---------------------------------------------------------------
+[ 2017-05-19T14:48:52+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ info ] wuyongwei.com/banner/1 [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,403.63kb] [文件加载：36]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[D:\xampp\htdocs\StarWar\Zerg\application\api\model\Banner.php:14]
+---------------------------------------------------------------
+[ 2017-05-19T14:49:58+08:00 ] 127.0.0.1 127.0.0.1 POST /banner/1
+[ info ] wuyongwei.com/banner/1 [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,169.70kb] [文件加载：30]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => '1',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '93b67bfc-008d-4424-8ae4-7c5ef58c87ee',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'wuyongwei.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-05-19T14:50:09+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ info ] wuyongwei.com/banner/1 [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：1,404.05kb] [文件加载：36]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[D:\xampp\htdocs\StarWar\Zerg\application\api\model\Banner.php:14]
+---------------------------------------------------------------
+[ 2017-05-19T14:50:20+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ info ] wuyongwei.com/banner/1 [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,403.00kb] [文件加载：36]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f6f1adfd-0563-4336-a94b-6ca140fa6fce',
+  'user-agent' => 'PostmanRuntime/3.0.11-hotfix.2',
+  'accept' => '*/*',
+  'host' => 'wuyongwei.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[D:\xampp\htdocs\StarWar\Zerg\application\api\model\Banner.php:14]

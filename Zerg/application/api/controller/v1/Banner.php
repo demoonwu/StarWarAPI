@@ -15,7 +15,15 @@ class Banner{
     
     function getBanner($id){
     	(new IdMustBePositiveInteger())->gocheck();
-    	$banner=BannerModel::getBannerById($id);
+    	try {
+    		$banner=BannerModel::getBannerById($id);    	
+    	} catch (Exception $ex) {
+    		$err=[
+    			'error_code'=>10001,
+    			'msg'=>$ex->getMessage()
+    		];
+    		return json($err,400);
+    	}
        //echo "路由通过";
     	return json($banner);
     }
