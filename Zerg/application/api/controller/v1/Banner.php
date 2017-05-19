@@ -10,20 +10,27 @@ namespace app\api\controller\v1;
 use think\Request;
 use app\api\validate\IdMustBePositiveInteger;
 use app\api\model\Banner as BannerModel;
+use app\lib\exception\BannerMissException;
+use think\Exception;
 
 class Banner{
     
     function getBanner($id){
     	(new IdMustBePositiveInteger())->gocheck();
-    	try {
-    		$banner=BannerModel::getBannerById($id);    	
-    	} catch (Exception $ex) {
-    		$err=[
-    			'error_code'=>10001,
-    			'msg'=>$ex->getMessage()
-    		];
-    		return json($err,400);
+    	// try {
+    	// 	$banner=BannerModel::getBannerById($id);    	
+    	// } catch (Exception $ex) {
+    	// 	$err=[
+    	// 		'error_code'=>10001,
+    	// 		'msg'=>$ex->getMessage()
+    	// 	];
+    	// 	return json($err,400);
+    	// }
+    	$banner=BannerModel::getBannerById($id);
+    	if(!$banner){
+    		throw new BannerMissException();
     	}
+
        //echo "路由通过";
     	return json($banner);
     }

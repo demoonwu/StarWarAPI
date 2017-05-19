@@ -406,3 +406,140 @@
 [ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
 [ info ] [ LOG ] INIT File
 [ error ] [2]Division by zero[D:\xampp\htdocs\StarWar\Zerg\application\api\model\Banner.php:14]
+---------------------------------------------------------------
+[ 2017-05-19T15:09:16+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ info ] wuyongwei.com/banner/1 [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,404.05kb] [文件加载：36]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[D:\xampp\htdocs\StarWar\Zerg\application\api\model\Banner.php:14]
+---------------------------------------------------------------
+[ 2017-05-19T15:09:17+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ info ] wuyongwei.com/banner/1 [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,404.05kb] [文件加载：36]
+[ info ] [ LANG ] D:\xampp\htdocs\StarWar\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'wuyongwei.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6,zh-TW;q=0.4',
+  'cookie' => 'pgv_pvi=2466684928',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[D:\xampp\htdocs\StarWar\Zerg\application\api\model\Banner.php:14]
+---------------------------------------------------------------
+[ 2017-05-19T15:13:11+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [2]Division by zero
+---------------------------------------------------------------
+[ 2017-05-19T15:13:28+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [2]Division by zero
+---------------------------------------------------------------
+[ 2017-05-19T15:14:07+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [2]Division by zero
+---------------------------------------------------------------
+[ 2017-05-19T15:20:53+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [4]语法错误: unexpected ';', expecting ']'
+---------------------------------------------------------------
+[ 2017-05-19T15:21:05+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [4]语法错误: unexpected ';', expecting ']'
+---------------------------------------------------------------
+[ 2017-05-19T15:21:11+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [4]语法错误: unexpected ';', expecting ']'
+---------------------------------------------------------------
+[ 2017-05-19T15:22:24+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [4]语法错误: unexpected ';', expecting ']'
+---------------------------------------------------------------
+[ 2017-05-19T15:25:42+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [4]语法错误: unexpected ';', expecting ']'
+---------------------------------------------------------------
+[ 2017-05-19T15:25:43+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [4]语法错误: unexpected ';', expecting ']'
+---------------------------------------------------------------
+[ 2017-05-19T15:25:52+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [4]语法错误: unexpected ';', expecting ']'
+---------------------------------------------------------------
+[ 2017-05-19T15:26:34+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [4]语法错误: unexpected ';', expecting ']'
+---------------------------------------------------------------
+[ 2017-05-19T15:27:22+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [4]语法错误: unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)
+---------------------------------------------------------------
+[ 2017-05-19T15:27:23+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [4]语法错误: unexpected 'return' (T_RETURN), expecting function (T_FUNCTION)
+---------------------------------------------------------------
+[ 2017-05-19T15:28:20+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [404]
+---------------------------------------------------------------
+[ 2017-05-19T15:29:03+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [4]语法错误: unexpected ';', expecting ']'
+---------------------------------------------------------------
+[ 2017-05-19T15:29:23+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [4]语法错误: unexpected ';', expecting ']'
+---------------------------------------------------------------
+[ 2017-05-19T15:29:36+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [404]
+---------------------------------------------------------------
+[ 2017-05-19T15:30:21+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [404]
+---------------------------------------------------------------
+[ 2017-05-19T15:30:35+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [404]
+---------------------------------------------------------------
+[ 2017-05-19T15:30:55+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [404]
+---------------------------------------------------------------
+[ 2017-05-19T15:30:57+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [404]
+---------------------------------------------------------------
+[ 2017-05-19T15:31:03+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [404]
+---------------------------------------------------------------
+[ 2017-05-19T15:32:02+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [2]Division by zero
+---------------------------------------------------------------
+[ 2017-05-19T15:32:31+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [2]Division by zero
+---------------------------------------------------------------
+[ 2017-05-19T15:34:16+08:00 ] 127.0.0.1 127.0.0.1 GET /banner/1
+[ error ] [2]Division by zero

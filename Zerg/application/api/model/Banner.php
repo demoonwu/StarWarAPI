@@ -17,5 +17,6 @@ class Banner{
     		
     	}
        return "这是banner的信息";
+       //return null;
     }
 }
