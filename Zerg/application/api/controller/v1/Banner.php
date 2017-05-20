@@ -12,6 +12,7 @@ use app\api\validate\IdMustBePositiveInteger;
 use app\api\model\Banner as BannerModel;
 use app\lib\exception\BannerMissException;
 use think\Exception;
+use think\Log;
 
 class Banner{
     
@@ -28,7 +29,10 @@ class Banner{
     	// }
     	$banner=BannerModel::getBannerById($id);
     	if(!$banner){
+    		Log::record('我是一个大胆的尝试', 'error');
+    		//log('error');
     		throw new BannerMissException();
+    		// throw new Exception();
     	}
 
        //echo "路由通过";

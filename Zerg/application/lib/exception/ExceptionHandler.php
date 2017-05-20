@@ -7,7 +7,6 @@
  * @版本: $Id$
  */
 namespace app\lib\exception;
-
 use think\Exception;
 use think\Request;
 use think\exception\Handle;

@@ -10,13 +10,13 @@ namespace  app\api\model;
 class Banner{
     
     public static function getBannerById($id){
-    	try {
-    		1/0;
-    	} catch (Exception $ex) {
-    		throw $ex;
+    // 	try {
+    // 		1/0;
+    // 	} catch (Exception $ex) {
+    // 		throw $ex;
     		
-    	}
-       return "这是banner的信息";
-       //return null;
+    // 	}
+    //    return "这是banner的信息";
+	return null;
     }
 }
