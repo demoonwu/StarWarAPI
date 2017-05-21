@@ -15,15 +15,20 @@ class ExceptionHandler extends Handle {
 	private $msg="参数错误";
 	private $errorCode=10000;
 
-	public function render(Exception $ex){
+	public function render(\Exception $ex){
 		if ($ex instanceof BaseException) {
 			$this->code=$ex->code;
 			$this->msg=$ex->msg;
 			$this->errorCode=$ex->errorCode;
+
 		} else {
+			if (config('app_debug')) {
+				return parent::render($ex);
+			}
 			$this->code=500;//自定义的500
 			$this->msg="服务器内部错误，外部无法读取";
 			$this->errorCode=999;
+			// $this->render()=parent->render($ex);
 		}
 		$request=Request::instance();
 
