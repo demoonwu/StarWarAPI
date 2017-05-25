@@ -29,9 +29,9 @@ class Banner{
     	// }
     	$banner=BannerModel::getBannerById($id);
     	if(!$banner){
-    		Log::record('我是一个大胆的尝试', 'error');
+    		//Log::record('我是一个大胆的尝试', 'error');
     		//log('error');
-    		throw new BannerMissException();
+    		throw new BannerMissException('我是一个大胆的尝试');
     		// throw new Exception();
     	}
 
