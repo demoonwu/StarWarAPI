@@ -10,6 +10,7 @@ namespace app\api\validate;
 use think\Validate;
 use think\Request;
 use think\Exception;
+use app\lib\exception\ParameterException;
 class BaseValidate extends Validate {
     // 获取http传入的参数
     // 对这些参数做校验
@@ -18,8 +19,9 @@ class BaseValidate extends Validate {
        $params=$request->param();
        $result=$this->check($params);
        if(!$result){
-       		$error=$this->error;
-       		throw new Exception($error);
+          $ex=new ParameterException();
+       		$ex->msg=$this->error;
+       		throw $ex;
        }else{
        		return true;
        }
