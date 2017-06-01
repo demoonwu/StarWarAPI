@@ -1,0 +1,105 @@
+---------------------------------------------------------------
+[ 2017-06-01T10:47:22+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/0.1
+[ info ] wuyongwei.com/getBanner/0.1 [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,427.69kb] [文件加载：37]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-01T10:47:44+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/0.1
+[ info ] wuyongwei.com/getBanner/0.1 [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：1,427.80kb] [文件加载：37]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-01T10:48:28+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/0.1
+[ info ] wuyongwei.com/getBanner/0.1 [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：1,427.65kb] [文件加载：37]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-01T10:50:18+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/0.1
+[ info ] wuyongwei.com/getBanner/0.1 [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,428.15kb] [文件加载：37]
+[ error ] [0]异常参数的数组必须是正整数，请检查异常的类的定义[D:\xampp\htdocs\StarWar\Zerg\application\lib\exception\BaseException.php:23]
+[ error ] 异常参数的数组必须是正整数，请检查异常的类的定义
+---------------------------------------------------------------
+[ 2017-06-01T10:52:53+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/0.1
+[ info ] wuyongwei.com/getBanner/0.1 [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,427.65kb] [文件加载：37]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-01T10:53:04+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/0.1
+[ info ] wuyongwei.com/getBanner/0.1 [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,427.84kb] [文件加载：37]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-01T10:53:25+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/0.1
+[ info ] wuyongwei.com/getBanner/0.1 [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,427.65kb] [文件加载：37]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-01T10:53:34+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/0.1
+[ info ] wuyongwei.com/getBanner/0.1 [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,427.84kb] [文件加载：37]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-01T10:56:29+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/0.1
+[ info ] wuyongwei.com/getBanner/0.1 [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,427.84kb] [文件加载：37]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-01T10:56:48+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner
+[ info ] wuyongwei.com/getBanner [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,191.50kb] [文件加载：31]
+[ error ] [0]方法参数错误:id[D:\xampp\htdocs\StarWar\Zerg\thinkphp\library\think\App.php:281]
+[ error ] method param miss:id
+---------------------------------------------------------------
+[ 2017-06-01T10:56:57+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/1
+[ info ] wuyongwei.com/getBanner/1 [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,429.78kb] [文件加载：38]
+[ error ] [0]异常的构造参数的必须为数组，请检查异常的类的定义[D:\xampp\htdocs\StarWar\Zerg\application\lib\exception\BaseException.php:24]
+[ error ] 异常的构造参数的必须为数组，请检查异常的类的定义
+---------------------------------------------------------------
+[ 2017-06-01T10:58:10+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/1
+[ info ] wuyongwei.com/getBanner/1 [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,429.85kb] [文件加载：38]
+[ error ] [0]异常的构造参数的必须为数组，请检查异常的类的定义[D:\xampp\htdocs\StarWar\Zerg\application\lib\exception\BaseException.php:24]
+[ error ] 异常的构造参数的必须为数组，请检查异常的类的定义
+---------------------------------------------------------------
+[ 2017-06-01T10:59:20+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/1
+[ info ] wuyongwei.com/getBanner/1 [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：1,429.85kb] [文件加载：38]
+[ error ] [0]异常的构造参数的必须为数组，请检查异常的类的定义[D:\xampp\htdocs\StarWar\Zerg\application\lib\exception\BaseException.php:24]
+[ error ] 异常的构造参数的必须为数组，请检查异常的类的定义
+---------------------------------------------------------------
+[ 2017-06-01T11:00:16+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/0.1
+[ info ] wuyongwei.com/getBanner/0.1 [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,427.68kb] [文件加载：37]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-01T11:01:01+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/0.1
+[ info ] wuyongwei.com/getBanner/0.1 [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,428.16kb] [文件加载：37]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-01T11:01:04+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/1
+[ info ] wuyongwei.com/getBanner/1 [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,437.80kb] [文件加载：39]
+[ error ] [8]Use of undefined constant msg - assumed 'msg'[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:34]
+[ error ] Use of undefined constant msg - assumed 'msg'
+---------------------------------------------------------------
+[ 2017-06-01T11:01:29+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/1
+[ info ] wuyongwei.com/getBanner/1 [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,429.52kb] [文件加载：38]
+[ error ] [404][D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:34]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-01T11:08:04+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/1
+[ info ] wuyongwei.com/getBanner/1 [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,429.05kb] [文件加载：36]
+[ error ] [1]Call to undefined method app\api\validate\IdMustBePositiveInteger::bantch()[D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:21]
+[ error ] Call to undefined method app\api\validate\IdMustBePositiveInteger::bantch()
+---------------------------------------------------------------
+[ 2017-06-01T11:08:24+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/1
+[ info ] wuyongwei.com/getBanner/1 [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,429.52kb] [文件加载：38]
+[ error ] [404][D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:34]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-01T11:09:36+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/1
+[ info ] wuyongwei.com/getBanner/1 [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,429.78kb] [文件加载：38]
+[ error ] [404][D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:34]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-01T11:09:38+08:00 ] 127.0.0.1 127.0.0.1 GET /getBanner/1
+[ info ] wuyongwei.com/getBanner/1 [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,429.78kb] [文件加载：38]
+[ error ] [404][D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:34]
+[ error ] 

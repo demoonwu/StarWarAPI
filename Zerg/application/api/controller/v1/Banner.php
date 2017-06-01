@@ -31,7 +31,7 @@ class Banner{
     	if(!$banner){
     		//Log::record('我是一个大胆的尝试', 'error');
     		//log('error');
-    		throw new BannerMissException('我是一个大胆的尝试');
+    		throw new BannerMissException(['msg'=>'我是一个大胆的尝试']);
     		// throw new Exception();
     	}
 

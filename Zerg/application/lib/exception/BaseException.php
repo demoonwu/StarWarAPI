@@ -16,4 +16,25 @@ class BaseException extends Exception{
    public $msg="参数错误";
    // 自定义的错误码
    public $errorCode=10000;
+
+
+   public function __construct($params=[]){
+   	//如果没有参数传入，那么就不掉用构造方法
+   	if (!is_array($params)) {
+   		throw new Exception('异常的构造参数的必须为数组，请检查异常的类的定义');
+   	}
+   	if (array_key_exists('code', $params)) {
+   		$this->code=$params['code'];
+   	}
+   	if (array_key_exists('msg', $params)) {
+   		$this->msg=$params['msg'];
+   	}
+   	if (array_key_exists('errorCode', $params)) {
+   		$this->errorCode=$params['errorCode'];
+   	}
+
+
+
+
+   }
 }

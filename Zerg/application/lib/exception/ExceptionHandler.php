@@ -32,7 +32,6 @@ class ExceptionHandler extends Handle {
 			$this->code=500;//自定义的500
 			$this->msg="服务器内部错误，外部无法读取";
 			$this->errorCode=999;
-			// $this->render()=parent->render($ex);
 		}
 		$request=Request::instance();
 
