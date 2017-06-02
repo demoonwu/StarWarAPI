@@ -17,3 +17,18 @@
 [ 2017-06-02T08:43:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/gestbanner/1
 [ info ] wuyongwei.com/api/v1/gestbanner/1 [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,190.87kb] [文件加载：31]
 [ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-06-02T09:10:12+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/getbanner/1?XDEBUG_SESSION_START=10468
+[ info ] wuyongwei.com/api/v1/getbanner/1?XDEBUG_SESSION_START=10468 [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,439.91kb] [文件加载：36]
+[ error ] [4]语法错误: unexpected '}'[D:\xampp\htdocs\StarWar\Zerg\application\api\model\Banner.php:24]
+[ error ] syntax error, unexpected '}'
+---------------------------------------------------------------
+[ 2017-06-02T09:10:53+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/getbanner/1?XDEBUG_SESSION_START=10468
+[ info ] wuyongwei.com/api/v1/getbanner/1?XDEBUG_SESSION_START=10468 [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,438.13kb] [文件加载：36]
+[ error ] [4]语法错误: unexpected 'return' (T_RETURN)[D:\xampp\htdocs\StarWar\Zerg\application\api\model\Banner.php:25]
+[ error ] syntax error, unexpected 'return' (T_RETURN)
+---------------------------------------------------------------
+[ 2017-06-02T09:11:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/getbanner/9
+[ info ] wuyongwei.com/api/v1/getbanner/9 [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：2,273.99kb] [文件加载：45]
+[ error ] [404][D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Banner.php:35]
+[ error ] 

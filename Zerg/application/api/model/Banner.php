@@ -17,7 +17,11 @@ class Banner{
             'select * from banner_item where banner_id=?',[$id]);
         return $result;*/
         //删除了上述的使用原生sql的，转而使用query查询器
-        $result =Db::table('banner_item')->where('banner_id','=',$id)->find();
+       /* $result =Db::table('banner_item')->where('banner_id','=',$id)->find();*/
+       // 数组法因为安全性问题官方不推荐，下面使用闭包法来查询
+        $result=Db::table('banner_item')->where(function ($query) use ($id){
+            $query->where('banner_id','=',$id);
+        })->select();
         return $result;
     }
 }
