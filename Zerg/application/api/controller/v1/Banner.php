@@ -31,6 +31,7 @@ class Banner{
     	if(!$banner){
     		//Log::record('我是一个大胆的尝试', 'error');
     		//log('error');
+            //大胆尝试是自己写的，可以去掉就正常使用了；
     		throw new BannerMissException(['msg'=>'我是一个大胆的尝试']);
     		// throw new Exception();
     	}

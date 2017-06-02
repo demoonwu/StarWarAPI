@@ -7,16 +7,14 @@
  * @版本: $Id$
  */
 namespace  app\api\model;
+
+use think\Db;
+
 class Banner{
     
     public static function getBannerById($id){
-    // 	try {
-    // 		1/0;
-    // 	} catch (Exception $ex) {
-    // 		throw $ex;
-    		
-    // 	}
-    //    return "这是banner的信息";
-	return null;
+        $result=Db::query(
+            'select * from banner_item where banner_id=?',[$id]);
+        return $result;
     }
 }
