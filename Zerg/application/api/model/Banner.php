@@ -13,8 +13,11 @@ use think\Db;
 class Banner{
     
     public static function getBannerById($id){
-        $result=Db::query(
+       /* $result=Db::query(
             'select * from banner_item where banner_id=?',[$id]);
+        return $result;*/
+        //删除了上述的使用原生sql的，转而使用query查询器
+        $result =Db::table('banner_item')->where('banner_id','=',$id)->find();
         return $result;
     }
 }

@@ -24,10 +24,10 @@ class ExceptionHandler extends Handle {
 			$this->recordErrorLog($ex);  #因为是自定义的异常，所以不用日志记录了
 
 		} else {
-			// if (config::get('app_debug')) {
-			// 	return parent::render($ex);
-			// 	exit();
-			// };
+/*			if (config::get('app_debug')) {
+				return parent::render($ex);
+				exit();
+			};*/
 			$this->recordErrorLog($ex);
 			$this->code=500;//自定义的500
 			$this->msg="服务器内部错误，外部无法读取";
@@ -42,7 +42,6 @@ class ExceptionHandler extends Handle {
 		];
 
 	return json($result,$this->code);
-	//return json("123");
 
 	}
 	private function recordErrorLog(\Exception $ex){

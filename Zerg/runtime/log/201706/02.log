@@ -13,3 +13,7 @@
 [ info ] wuyongwei.com/api/v1/getbanner/1 [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,424.24kb] [文件加载：37]
 [ error ] [2]Division by zero[D:\xampp\htdocs\StarWar\Zerg\application\api\model\Banner.php:17]
 [ error ] Division by zero
+---------------------------------------------------------------
+[ 2017-06-02T08:43:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/gestbanner/1
+[ info ] wuyongwei.com/api/v1/gestbanner/1 [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,190.87kb] [文件加载：31]
+[ error ] controller not exists:V1

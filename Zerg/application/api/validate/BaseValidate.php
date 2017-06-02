@@ -24,7 +24,6 @@ class BaseValidate extends Validate {
           $ex=new ParameterException([
             'msg' =>$this->error 
             ]);
-       		// $ex->msg=$this->error;
        		throw $ex;
        }else{
        		return true;

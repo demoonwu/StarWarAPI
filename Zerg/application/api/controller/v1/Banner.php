@@ -37,7 +37,7 @@ class Banner{
     	}
 
        //echo "路由通过";
-    	return json($banner);
+    	return json($banner,200);
     }
 
     function tryNewValidate(){
