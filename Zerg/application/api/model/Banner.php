@@ -21,7 +21,7 @@ class Banner{
        // 数组法因为安全性问题官方不推荐，下面使用闭包法来查询
         $result=Db::table('banner_item')->where(function ($query) use ($id){
             $query->where('banner_id','=',$id);
-        })->select();
+        })->fetchSql()->select();//fetchSql返回sql具体语句而不执行
         return $result;
     }
 }
