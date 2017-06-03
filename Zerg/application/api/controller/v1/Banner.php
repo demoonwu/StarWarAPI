@@ -27,7 +27,8 @@ class Banner{
     	// 	];
     	// 	return json($err,400);
     	// }
-    	$banner=BannerModel::getBannerById($id);
+        //$banner=BannerModel::getBannerById($id);
+    	$banner=BannerModel::all($id);
     	if(!$banner){
     		//Log::record('我是一个大胆的尝试', 'error');
     		//log('error');

@@ -9,9 +9,9 @@
 namespace  app\api\model;
 
 use think\Db;
+use think\Model;
 
-class Banner{
-    
+class Banner extends Model{
     public static function getBannerById($id){
        /* $result=Db::query(
             'select * from banner_item where banner_id=?',[$id]);
