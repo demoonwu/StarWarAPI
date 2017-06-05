@@ -12,6 +12,10 @@ use think\Db;
 use think\Model;
 
 class Banner extends Model{
+    protected $hidden=['update_time','delete_time'];
+    public  function items(){
+      return $this->hasMany('BannerItem','banner_id','id');
+    }
     public static function getBannerById($id){
        /* $result=Db::query(
             'select * from banner_item where banner_id=?',[$id]);
@@ -19,9 +23,10 @@ class Banner extends Model{
         //删除了上述的使用原生sql的，转而使用query查询器
        /* $result =Db::table('banner_item')->where('banner_id','=',$id)->find();*/
        // 数组法因为安全性问题官方不推荐，下面使用闭包法来查询
-        $result=Db::table('banner_item')->where(function ($query) use ($id){
-            $query->where('banner_id','=',$id);
-        })->fetchSql()->select();//fetchSql返回sql具体语句而不执行
+//         $result=Db::table('banner_item')->where(function ($query) use ($id){
+//             $query->where('banner_id','=',$id);
+//         })->fetchSql()->select();//fetchSql返回sql具体语句而不执行
+        $result=self::with(['items','items.img'])->find($id);
         return $result;
     }
 }
