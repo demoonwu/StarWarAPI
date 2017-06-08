@@ -12,12 +12,9 @@ class IdMustBePositiveInteger extends BaseValidate {
     protected $rule=[
     	'id'=>'require|isPositiveInteger'
     ];
-    protected function isPositiveInteger($value,$rule='',$data='',$field=''){
-       if(is_numeric($value)&&is_int($value+0)&&($value+0)>0){
-       		return true;
-       }
-       else{
-       		return $field.'必须是正整数';
-       }
-    }
+    // 这个是TP5自定义的$message变量，专门用来传递验证不通过的消息的
+    protected $message=[
+      'id'=>'id必须是正整数'
+    ];
+   
 }
