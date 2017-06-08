@@ -18,3 +18,4 @@ Route::post('getvar/:id','sample/Test/getvar');
 Route::rule('tryNewValidate/:id','api/v1.Banner/tryNewValidate');
 Route::get('api/:version/getBanner/[:id]','api/:version.Banner/getBanner');
 Route::get('api/:version/theme','api/:version.Theme/getSimpleList');
+Route::get('api/:version/theme/:id','api/:version.Theme/getComplexOne');

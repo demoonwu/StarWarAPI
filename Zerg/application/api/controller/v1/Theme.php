@@ -9,6 +9,8 @@
 namespace app\api\controller\v1;
 use app\api\validate\IdCollection;
 use app\lib\exception\SimpleListMissException;
+use app\lib\exception\ThemeMissException;
+use app\api\validate\IdMustBePositiveInteger;
 use app\api\model\Theme as ThemeModel;
 class Theme{
     /*
@@ -25,5 +27,14 @@ class Theme{
     		throw new SimpleListMissException();
     	}
        return json($result);
+    }
+
+    public function getComplexOne($id){
+    	(new IdMustBePositiveInteger())->gocheck();
+    	$result=ThemeModel:: getThemeWithProducts($id);
+    	if (!$result) {
+    		throw new ThemeMissException();
+    	}
+    	return json($result);
     }
 }

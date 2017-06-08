@@ -423,3 +423,109 @@
 [ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
 [ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000000s ]
 [ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-06-08T21:52:19+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?2
+[ info ] wuyongwei.com/api/v1/theme?2 [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,434.31kb] [文件加载：38]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-08T21:53:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?2
+[ info ] wuyongwei.com/api/v1/theme?2 [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,435.35kb] [文件加载：38]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-08T21:53:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?2
+[ info ] wuyongwei.com/api/v1/theme?2 [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,435.35kb] [文件加载：38]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-08T21:53:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?2
+[ info ] wuyongwei.com/api/v1/theme?2 [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,435.35kb] [文件加载：38]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-08T21:53:20+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/2
+[ info ] wuyongwei.com/api/v1/theme/2 [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,194.97kb] [文件加载：32]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-06-08T21:53:38+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/2
+[ info ] wuyongwei.com/api/v1/theme/2 [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,194.97kb] [文件加载：32]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-06-08T21:54:55+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme
+[ info ] wuyongwei.com/api/v1/theme [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：1,435.41kb] [文件加载：38]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-08T21:55:43+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/
+[ info ] wuyongwei.com/api/v1/theme/ [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,435.47kb] [文件加载：38]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-08T22:09:18+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/2
+[ info ] wuyongwei.com/api/v1/theme/2 [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：2,503.74kb] [文件加载：46]
+[ error ] [0]method not exist:think\db\Query->toplicImg[D:\xampp\htdocs\StarWar\Zerg\thinkphp\library\think\db\Query.php:93]
+[ error ] method not exist:think\db\Query->toplicImg
+---------------------------------------------------------------
+[ 2017-06-08T22:10:13+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/2
+[ info ] wuyongwei.com/api/v1/theme/2 [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：2,688.77kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 17 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 50 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-06-08T22:12:09+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/2
+[ info ] wuyongwei.com/api/v1/theme/2 [运行时间：0.098005s][吞吐率：10.20req/s] [内存消耗：2,921.81kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 17 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 50 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-06-08T22:15:18+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/2
+[ info ] wuyongwei.com/api/v1/theme/2 [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,921.81kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 17 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 50 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-06-08T22:15:23+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/99
+[ info ] wuyongwei.com/api/v1/theme/99 [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：2,914.25kb] [文件加载：54]
+[ error ] [1]Class 'app\api\controller\v1\ThemeMissException' not found[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Theme.php:35]
+[ error ] Class 'app\api\controller\v1\ThemeMissException' not found
+---------------------------------------------------------------
+[ 2017-06-08T22:16:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/99
+[ info ] wuyongwei.com/api/v1/theme/99 [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：2,913.21kb] [文件加载：55]
+[ error ] [404][D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Theme.php:36]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-08T23:36:43+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/99
+[ info ] wuyongwei.com/api/v1/theme/99 [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：2,913.21kb] [文件加载：55]
+[ error ] [404][D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Theme.php:36]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-08T23:36:49+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ info ] wuyongwei.com/api/v1/theme/1 [运行时间：0.095005s][吞吐率：10.53req/s] [内存消耗：2,909.56kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000000s ]
