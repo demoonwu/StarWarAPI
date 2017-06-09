@@ -1,0 +1,231 @@
+---------------------------------------------------------------
+[ 2017-06-09T21:08:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ info ] wuyongwei.com/api/v1/theme/1 [运行时间：0.120200s][吞吐率：8.32req/s] [内存消耗：2,911.27kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-06-09T21:10:35+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ info ] wuyongwei.com/api/v1/theme/1 [运行时间：0.094402s][吞吐率：10.59req/s] [内存消耗：2,911.72kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.017600s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-06-09T21:12:26+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ info ] wuyongwei.com/api/v1/theme/1 [运行时间：0.056602s][吞吐率：17.67req/s] [内存消耗：2,968.78kb] [文件加载：53]
+[ error ] [0]method not exist:think\db\Query->prefixImgUrl[D:\xampp\htdocs\StarWar\Zerg\thinkphp\library\think\db\Query.php:93]
+[ error ] method not exist:think\db\Query->prefixImgUrl
+---------------------------------------------------------------
+[ 2017-06-09T21:12:40+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ info ] wuyongwei.com/api/v1/theme/1 [运行时间：0.073401s][吞吐率：13.62req/s] [内存消耗：2,912.91kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.015600s ]
+---------------------------------------------------------------
+[ 2017-06-09T21:24:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent
+[ info ] wuyongwei.com/api/v1/product/getRecent [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,198.05kb] [文件加载：32]
+[ error ] module not exists:v1.product
+---------------------------------------------------------------
+[ 2017-06-09T21:25:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent
+[ info ] wuyongwei.com/api/v1/product/getRecent [运行时间：0.010001s][吞吐率：99.99req/s] [内存消耗：1,198.05kb] [文件加载：32]
+[ error ] module not exists:v1.product
+---------------------------------------------------------------
+[ 2017-06-09T21:26:45+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ info ] wuyongwei.com/api/v1/theme/1 [运行时间：0.064202s][吞吐率：15.58req/s] [内存消耗：2,914.68kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-06-09T21:26:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent/
+[ info ] wuyongwei.com/api/v1/product/getRecent/ [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,198.05kb] [文件加载：32]
+[ error ] module not exists:v1.product
+---------------------------------------------------------------
+[ 2017-06-09T21:29:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent/
+[ info ] wuyongwei.com/api/v1/product/getRecent/ [运行时间：0.015600s][吞吐率：64.10req/s] [内存消耗：1,220.79kb] [文件加载：33]
+[ error ] [4]语法错误: unexpected '=>' (T_DOUBLE_ARROW)[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Product.php:14]
+[ error ] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+---------------------------------------------------------------
+[ 2017-06-09T21:30:02+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent/
+[ info ] wuyongwei.com/api/v1/product/getRecent/ [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,221.61kb] [文件加载：34]
+[ error ] [4]语法错误: unexpected 'protected' (T_PROTECTED), expecting ',' or ';'[D:\xampp\htdocs\StarWar\Zerg\application\api\validate\CountIsPositiveInteger.php:14]
+[ error ] syntax error, unexpected 'protected' (T_PROTECTED), expecting ',' or ';'
+---------------------------------------------------------------
+[ 2017-06-09T21:30:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=0.1
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=0.1 [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,435.38kb] [文件加载：38]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-09T21:30:55+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=2
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=2 [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,435.39kb] [文件加载：38]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-09T21:31:05+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=2
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=2 [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,435.39kb] [文件加载：38]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-09T21:31:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,435.38kb] [文件加载：38]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-09T21:31:50+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=2
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=2 [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,435.39kb] [文件加载：38]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-09T21:32:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=0.1
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=0.1 [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,435.13kb] [文件加载：38]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-09T21:32:33+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=16
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=16 [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,435.15kb] [文件加载：38]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-09T21:36:36+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=16
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=16 [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,435.53kb] [文件加载：38]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:24]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-09T21:36:39+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,633.30kb] [文件加载：45]
+[ error ] [0]variable type error： array[D:\xampp\htdocs\StarWar\Zerg\thinkphp\library\think\Response.php:316]
+[ error ] variable type error： array
+---------------------------------------------------------------
+[ 2017-06-09T21:37:48+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：2,633.30kb] [文件加载：45]
+[ error ] [0]variable type error： array[D:\xampp\htdocs\StarWar\Zerg\thinkphp\library\think\Response.php:316]
+[ error ] variable type error： array
+---------------------------------------------------------------
+[ 2017-06-09T21:39:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,582.50kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-06-09T21:44:15+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：2,654.29kb] [文件加载：47]
+[ error ] [1]Call to a member function isEmpty() on null[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Product.php:17]
+[ error ] Call to a member function isEmpty() on null
+---------------------------------------------------------------
+[ 2017-06-09T21:44:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,654.26kb] [文件加载：47]
+[ error ] [1]Class 'app\api\controller\v1\ProductException' not found[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Product.php:18]
+[ error ] Class 'app\api\controller\v1\ProductException' not found
+---------------------------------------------------------------
+[ 2017-06-09T21:45:57+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：2,653.34kb] [文件加载：48]
+[ error ] [404][D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Product.php:19]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-06-09T21:46:18+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：2,583.13kb] [文件加载：43]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-06-09T21:47:15+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,643.95kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-06-09T21:47:16+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：2,643.95kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-06-09T21:47:46+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,644.13kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-06-09T21:48:08+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,709.41kb] [文件加载：49]
+[ error ] [2]array_merge(): Argument #2 is not an array[D:\xampp\htdocs\StarWar\Zerg\thinkphp\library\think\Model.php:685]
+[ error ] array_merge(): Argument #2 is not an array
+---------------------------------------------------------------
+[ 2017-06-09T21:48:45+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：2,644.54kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-06-09T21:48:56+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.069003s][吞吐率：14.49req/s] [内存消耗：2,644.55kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-06-09T21:50:28+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：2,715.52kb] [文件加载：49]
+[ error ] [1]Call to a member function hidden() on null[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Product.php:18]
+[ error ] Call to a member function hidden() on null
+---------------------------------------------------------------
+[ 2017-06-09T21:51:34+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.064003s][吞吐率：15.62req/s] [内存消耗：2,715.52kb] [文件加载：49]
+[ error ] [1]Call to a member function hidden() on null[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Product.php:19]
+[ error ] Call to a member function hidden() on null
+---------------------------------------------------------------
+[ 2017-06-09T21:51:49+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,715.52kb] [文件加载：49]
+[ error ] [1]Call to a member function hidden() on null[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Product.php:19]
+[ error ] Call to a member function hidden() on null
+---------------------------------------------------------------
+[ 2017-06-09T21:52:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,715.21kb] [文件加载：49]
+[ error ] [1]Call to a member function isEmpty() on null[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Product.php:20]
+[ error ] Call to a member function isEmpty() on null
+---------------------------------------------------------------
+[ 2017-06-09T21:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：2,644.13kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-06-09T21:54:16+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.058004s][吞吐率：17.24req/s] [内存消耗：2,644.56kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-06-09T21:56:26+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：2,635.59kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-06-09T21:56:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/getRecent?count=15
+[ info ] wuyongwei.com/api/v1/product/getRecent?count=15 [运行时间：0.062003s][吞吐率：16.13req/s] [内存消耗：2,644.56kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001000s ]
