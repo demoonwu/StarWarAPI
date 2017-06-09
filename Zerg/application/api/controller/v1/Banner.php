@@ -29,7 +29,7 @@ class Banner{
     	// }
         $banner=BannerModel::getBannerById($id);
     	//$banner=BannerModel::all($id);
-    	if(!$banner){
+    	if($result->isEmpty()){
     		//Log::record('我是一个大胆的尝试', 'error');
     		//log('error');
             //大胆尝试是自己写的，可以去掉就正常使用了；

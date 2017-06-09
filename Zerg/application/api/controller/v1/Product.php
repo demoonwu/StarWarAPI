@@ -8,6 +8,7 @@
  */
 namespace app\api\controller\v1;
 use app\api\validate\CountIsPositiveInteger;
+use app\api\validate\IdMustBePositiveInteger;
 use app\api\model\Product as ProductModel;
 use app\lib\exception\ProductException;
 class Product {
@@ -21,5 +22,16 @@ class Product {
 
        }
        return json($result);
+    }
+
+    public function getAllInCategory($id){
+    	(new IdMustBePositiveInteger)->gocheck();
+    	$products=ProductModel::getProductsByCategoryId($id);
+    	if ($products->isEmpty()) {
+    		throw new ProductException();
+    		
+    	}
+    	return json($products);
+
     }
 }

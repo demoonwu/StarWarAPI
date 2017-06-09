@@ -23,7 +23,7 @@ class Theme{
     	$ids=explode(',',$ids);
     	//$result=ThemeModel::with('topicImg,headImg')->select($ids);
     	$result=ThemeModel::getSimpleListByIds($ids);
-    	if (!$result) {
+    	if ($result->isEmpty()) {
     		throw new SimpleListMissException();
     	}
        return json($result);
@@ -32,7 +32,7 @@ class Theme{
     public function getComplexOne($id){
     	(new IdMustBePositiveInteger())->gocheck();
     	$result=ThemeModel:: getThemeWithProducts($id);
-    	if (!$result) {
+    	if ($result->isEmpty()) {
     		throw new ThemeMissException();
     	}
     	return json($result);

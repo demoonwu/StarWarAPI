@@ -229,3 +229,64 @@
 [ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
 [ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004001s ]
 [ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-06-09T23:10:16+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2
+[ info ] wuyongwei.com/api/v1/theme?ids=1,2 [运行时间：0.059004s][吞吐率：16.95req/s] [内存消耗：2,772.66kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-06-09T23:13:32+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2
+[ info ] wuyongwei.com/api/v1/theme?ids=1,2 [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：2,772.66kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-06-09T23:27:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ info ] wuyongwei.com/api/v1/category/all [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：2,533.34kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-06-09T23:28:02+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ info ] wuyongwei.com/api/v1/category/all [运行时间：0.061004s][吞吐率：16.39req/s] [内存消耗：2,542.27kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-06-09T23:38:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/by_category
+[ info ] wuyongwei.com/api/v1/product/by_category [运行时间：0.025002s][吞吐率：40.00req/s] [内存消耗：1,201.38kb] [文件加载：32]
+[ error ] [0]方法参数错误:id[D:\xampp\htdocs\StarWar\Zerg\thinkphp\library\think\App.php:281]
+[ error ] method param miss:id
+---------------------------------------------------------------
+[ 2017-06-09T23:39:57+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/by_category?id=3
+[ info ] wuyongwei.com/api/v1/product/by_category?id=3 [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,222.38kb] [文件加载：34]
+[ error ] [1]Class 'app\api\controller\v1\IdMustBePositiveInteger' not found[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Product.php:27]
+[ error ] Class 'app\api\controller\v1\IdMustBePositiveInteger' not found
+---------------------------------------------------------------
+[ 2017-06-09T23:40:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/by_category?id=3
+[ info ] wuyongwei.com/api/v1/product/by_category?id=3 [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,455.74kb] [文件加载：37]
+[ error ] [4]语法错误: unexpected '$categoryId' (T_VARIABLE)[D:\xampp\htdocs\StarWar\Zerg\application\api\model\Product.php:19]
+[ error ] syntax error, unexpected '$categoryId' (T_VARIABLE)
+---------------------------------------------------------------
+[ 2017-06-09T23:40:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/by_category?id=3
+[ info ] wuyongwei.com/api/v1/product/by_category?id=3 [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：2,639.52kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 3 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-06-09T23:41:08+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/by_category?id=3
+[ info ] wuyongwei.com/api/v1/product/by_category?id=3 [运行时间：0.056004s][吞吐率：17.86req/s] [内存消耗：2,648.44kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 3 [ RunTime:0.000000s ]
