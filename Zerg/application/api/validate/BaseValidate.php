@@ -17,7 +17,6 @@ class BaseValidate extends Validate {
     public function gocheck(){
        $request=Request::instance();
        $params=$request->param();
-
        $result=$this->batch()->check($params);
        if(!$result){
           // 重构异常，将msg作为一个变量传入
@@ -29,6 +28,7 @@ class BaseValidate extends Validate {
        		return true;
        }
     }
+    //===============================================================================
     protected function isPositiveInteger($value,$rule='',$data='',$field=''){
        if(is_numeric($value)&&is_int($value+0)&&($value+0)>0){
           return true;

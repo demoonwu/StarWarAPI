@@ -1,0 +1,60 @@
+---------------------------------------------------------------
+[ 2017-07-07T19:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/js/respond.min.js
+[ info ] wuyongwei.com/static/index/js/respond.min.js [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,200.15kb] [文件加载：32]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2017-07-07T19:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/js/jquery-1.11.3.min.js
+[ info ] wuyongwei.com/static/index/js/jquery-1.11.3.min.js [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：1,200.23kb] [文件加载：32]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2017-07-07T19:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/js/html5shiv.js
+[ info ] wuyongwei.com/static/index/js/html5shiv.js [运行时间：0.093006s][吞吐率：10.75req/s] [内存消耗：1,200.20kb] [文件加载：32]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2017-07-07T19:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/css/base.css
+[ info ] wuyongwei.com/static/index/css/base.css [运行时间：0.073005s][吞吐率：13.70req/s] [内存消耗：1,200.19kb] [文件加载：32]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2017-07-07T19:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/css/common.css
+[ info ] wuyongwei.com/static/index/css/common.css [运行时间：0.058004s][吞吐率：17.24req/s] [内存消耗：1,200.20kb] [文件加载：32]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2017-07-07T19:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/css/index.css
+[ info ] wuyongwei.com/static/index/css/index.css [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：1,200.20kb] [文件加载：32]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2017-07-07T19:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/image/logo.png
+[ info ] wuyongwei.com/static/index/image/logo.png [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：1,200.27kb] [文件加载：32]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2017-07-07T19:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/js/respond.min.js
+[ info ] wuyongwei.com/static/index/js/respond.min.js [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,200.16kb] [文件加载：32]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2017-07-07T19:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg
+[ info ] wuyongwei.com/static/index/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,200.34kb] [文件加载：32]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2017-07-07T19:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/js/jquery-1.11.3.min.js
+[ info ] wuyongwei.com/static/index/js/jquery-1.11.3.min.js [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,200.23kb] [文件加载：32]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2017-07-07T19:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg
+[ info ] wuyongwei.com/static/index/image/63d0f703918fa0ec7c51e2912e9759ee3c6ddb9c.jpg [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,200.34kb] [文件加载：32]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2017-07-07T19:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/image/72f082025aafa40f9205eb43a364034f79f01968.jpg
+[ info ] wuyongwei.com/static/index/image/72f082025aafa40f9205eb43a364034f79f01968.jpg [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,200.34kb] [文件加载：32]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2017-07-07T19:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg
+[ info ] wuyongwei.com/static/index/image/b219ebc4b74543a9c6c87b8e18178a82b80114a4.jpg [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,200.34kb] [文件加载：32]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2017-07-07T19:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/image/logo.png
+[ info ] wuyongwei.com/static/index/image/logo.png [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,200.27kb] [文件加载：32]
+[ error ] module not exists:static
+---------------------------------------------------------------
+[ 2017-07-07T19:17:51+08:00 ] 127.0.0.1 127.0.0.1 GET /static/index/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg
+[ info ] wuyongwei.com/static/index/image/a1ec08fa513d2697b85e74c35dfbb2fb4216d89b.jpg [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,200.34kb] [文件加载：32]
+[ error ] module not exists:static
