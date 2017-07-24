@@ -2,3 +2,187 @@
 [ 2017-07-24T21:58:19+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1
 [ info ] wuyongwei.com/api/v1 [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,201.79kb] [文件加载：33]
 [ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:33+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,202.73kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,202.73kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,202.73kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.069003s][吞吐率：14.49req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:41+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:41+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:42+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:42+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:08:42+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:00+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:02+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:02+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:21+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.024002s][吞吐率：41.66req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:21+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:21+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:21+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:23+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:34+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:35+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:35+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:35+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:35+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:10:42+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.032001s][吞吐率：31.25req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:16:19+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-24T22:16:53+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,202.70kb] [文件加载：33]
+[ error ] controller not exists:V1

@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 var app = getApp()
-var baseUrl = 'http://z.cn/api/v1';
+var baseUrl = 'http://wuyongwei.com/api/v1';
 Page({
   onLoad: function () {
   },
@@ -32,6 +32,7 @@ Page({
     //调用登录接口
     wx.login({
       success: function (res) {
+        console.log(res);
         var code = res.code;
         console.log('code');
         console.log(code);
