@@ -55,4 +55,22 @@ class BaseValidate extends Validate {
       }
       return true;
     }
+    
+    /**
+     * 用于检测是否为空
+     * @param $value
+     * @param string $rule
+     * @param string $data
+     * @param string $field
+     * @return bool
+     */
+    protected  function isNotEmpty($value,$rule='',$data='',$field=''){
+//        进过测试，如果传入值为空，tp5的验证器根本无法走到这，无论你是否定义了require
+//        所以这个验证器基本上没啥用，为了表示对老师的尊敬就不删了
+        if(empty($value)){
+            return false;
+        }else {
+            return true;
+        }
+    }
 }

@@ -1,0 +1,128 @@
+---------------------------------------------------------------
+[ 2017-07-25T20:41:38+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：1,442.21kb] [文件加载：39]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:23]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-07-25T20:44:32+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,444.40kb] [文件加载：39]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:23]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-07-25T20:46:55+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,444.47kb] [文件加载：39]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:23]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-07-25T20:47:40+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,444.47kb] [文件加载：39]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:23]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-07-25T20:47:49+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,444.47kb] [文件加载：39]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:23]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-07-25T20:48:59+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,444.43kb] [文件加载：39]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:23]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-07-25T20:49:21+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,443.73kb] [文件加载：39]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:23]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-07-25T20:49:25+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,443.71kb] [文件加载：39]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:23]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-07-25T20:52:17+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,443.98kb] [文件加载：39]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:23]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-07-25T20:57:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1
+[ info ] wuyongwei.com/api/v1 [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,204.19kb] [文件加载：33]
+[ error ] controller not exists:V1
+---------------------------------------------------------------
+[ 2017-07-25T20:58:03+08:00 ] 127.0.0.1 127.0.0.1 GET /public/index.php
+[ info ] wuyongwei.com/public/index.php [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,203.71kb] [文件加载：33]
+[ error ] module not exists:public
+---------------------------------------------------------------
+[ 2017-07-25T21:03:50+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user?XDEBUG_SESSION_START=19894
+[ info ] wuyongwei.com/api/v1/token/user?XDEBUG_SESSION_START=19894 [运行时间：59.810421s][吞吐率：0.02req/s] [内存消耗：1,444.22kb] [文件加载：39]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:23]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-07-25T21:13:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user?XDEBUG_SESSION_START=19894
+[ info ] wuyongwei.com/api/v1/token/user?XDEBUG_SESSION_START=19894 [运行时间：37.150125s][吞吐率：0.03req/s] [内存消耗：1,444.22kb] [文件加载：39]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:23]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-07-25T21:14:45+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user?XDEBUG_SESSION_START=19894
+[ info ] wuyongwei.com/api/v1/token/user?XDEBUG_SESSION_START=19894 [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,444.55kb] [文件加载：39]
+[ error ] [400][D:\xampp\htdocs\StarWar\Zerg\application\api\validate\BaseValidate.php:23]
+[ error ] 
+---------------------------------------------------------------
+[ 2017-07-25T22:38:30+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user?XDEBUG_SESSION_START=19894
+[ info ] wuyongwei.com/api/v1/token/user?XDEBUG_SESSION_START=19894 [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：1,455.09kb] [文件加载：38]
+[ error ] [4]语法错误: unexpected ','[D:\xampp\htdocs\StarWar\Zerg\application\api\service\Token.php:26]
+[ error ] syntax error, unexpected ','
+---------------------------------------------------------------
+[ 2017-07-25T22:39:20+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user?XDEBUG_SESSION_START=19894
+[ info ] wuyongwei.com/api/v1/token/user?XDEBUG_SESSION_START=19894 [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,444.65kb] [文件加载：39]
+[ error ] [8]Array to string conversion[D:\xampp\htdocs\StarWar\Zerg\application\api\service\Token.php:28]
+[ error ] Array to string conversion
+---------------------------------------------------------------
+[ 2017-07-25T22:53:53+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,460.55kb] [文件加载：38]
+[ error ] [4]语法错误: unexpected 'rerurn' (T_STRING)[D:\xampp\htdocs\StarWar\Zerg\application\api\service\Token.php:33]
+[ error ] syntax error, unexpected 'rerurn' (T_STRING)
+---------------------------------------------------------------
+[ 2017-07-25T22:54:10+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,460.55kb] [文件加载：38]
+[ error ] [4]语法错误: unexpected 'rerurn' (T_STRING)[D:\xampp\htdocs\StarWar\Zerg\application\api\service\Token.php:33]
+[ error ] syntax error, unexpected 'rerurn' (T_STRING)
+---------------------------------------------------------------
+[ 2017-07-25T22:54:52+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,230.95kb] [文件加载：34]
+[ error ] [4]语法错误: unexpected 'IcrO0o2LX821gWoO0lCnrO02Icrs' (T_STRING)[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Token.php:19]
+[ error ] syntax error, unexpected 'IcrO0o2LX821gWoO0lCnrO02Icrs' (T_STRING)
+---------------------------------------------------------------
+[ 2017-07-25T22:56:56+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,230.95kb] [文件加载：34]
+[ error ] [4]语法错误: unexpected 'IcrO0o2LX821gWoO0lCnrO02Icrs' (T_STRING)[D:\xampp\htdocs\StarWar\Zerg\application\api\controller\v1\Token.php:19]
+[ error ] syntax error, unexpected 'IcrO0o2LX821gWoO0lCnrO02Icrs' (T_STRING)
+---------------------------------------------------------------
+[ 2017-07-25T22:58:36+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,460.20kb] [文件加载：38]
+[ error ] [4]语法错误: unexpected 'rerurn' (T_STRING)[D:\xampp\htdocs\StarWar\Zerg\application\api\service\Token.php:33]
+[ error ] syntax error, unexpected 'rerurn' (T_STRING)
+---------------------------------------------------------------
+[ 2017-07-25T22:58:50+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,460.19kb] [文件加载：38]
+[ error ] [4]语法错误: unexpected 'return' (T_RETURN)[D:\xampp\htdocs\StarWar\Zerg\application\api\service\Token.php:33]
+[ error ] syntax error, unexpected 'return' (T_RETURN)
+---------------------------------------------------------------
+[ 2017-07-25T22:59:08+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,460.19kb] [文件加载：38]
+[ error ] [4]语法错误: unexpected 'return' (T_RETURN)[D:\xampp\htdocs\StarWar\Zerg\application\api\service\Token.php:33]
+[ error ] syntax error, unexpected 'return' (T_RETURN)
+---------------------------------------------------------------
+[ 2017-07-25T23:08:25+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,459.55kb] [文件加载：38]
+[ error ] [4]语法错误: unexpected '}', expecting identifier (T_STRING)[D:\xampp\htdocs\StarWar\Zerg\application\api\service\Token.php:47]
+[ error ] syntax error, unexpected '}', expecting identifier (T_STRING)
+---------------------------------------------------------------
+[ 2017-07-25T23:08:39+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.032001s][吞吐率：31.25req/s] [内存消耗：1,459.10kb] [文件加载：38]
+[ error ] [4]语法错误: unexpected '}', expecting identifier (T_STRING)[D:\xampp\htdocs\StarWar\Zerg\application\api\service\Token.php:47]
+[ error ] syntax error, unexpected '}', expecting identifier (T_STRING)
+---------------------------------------------------------------
+[ 2017-07-25T23:11:00+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user?XDEBUG_SESSION_START=15766
+[ info ] wuyongwei.com/api/v1/token/user?XDEBUG_SESSION_START=15766 [运行时间：79.418543s][吞吐率：0.01req/s] [内存消耗：1,454.75kb] [文件加载：39]
+[ error ] [4]语法错误: unexpected => (T_DOUBLE_ARROW)[xdebug://debug-eval:1]
+[ error ] syntax error, unexpected => (T_DOUBLE_ARROW)

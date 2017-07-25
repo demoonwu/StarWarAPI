@@ -13,28 +13,29 @@ use app\lib\exception\ThemeMissException;
 use app\api\validate\IdMustBePositiveInteger;
 use app\api\model\Theme as ThemeModel;
 class Theme{
-    /*
-	@url /theme?ids=id1,id2....
-	@return 一组theme模型
-    */
-
+    /**
+     * @param string $ids
+     * @url /theme?ids=id1,id2....
+     * @return \think\response\Json 一组theme模型
+     * @throws SimpleListMissException
+     */
     public function getSimpleList($ids=''){
-    	(new IdCollection())->gocheck();
-    	$ids=explode(',',$ids);
-    	//$result=ThemeModel::with('topicImg,headImg')->select($ids);
-    	$result=ThemeModel::getSimpleListByIds($ids);
-    	if ($result->isEmpty()) {
-    		throw new SimpleListMissException();
-    	}
+        (new IdCollection())->gocheck();
+        $ids=explode(',',$ids);
+        //$result=ThemeModel::with('topicImg,headImg')->select($ids);
+        $result=ThemeModel::getSimpleListByIds($ids);
+        if ($result->isEmpty()) {
+            throw new SimpleListMissException();
+        }
        return json($result);
     }
 
     public function getComplexOne($id){
-    	(new IdMustBePositiveInteger())->gocheck();
-    	$result=ThemeModel:: getThemeWithProducts($id);
-    	if ($result->isEmpty()) {
-    		throw new ThemeMissException();
-    	}
-    	return json($result);
+        (new IdMustBePositiveInteger())->gocheck();
+        $result=ThemeModel:: getThemeWithProducts($id);
+        if ($result->isEmpty()) {
+            throw new ThemeMissException();
+        }
+        return json($result);
     }
 }
