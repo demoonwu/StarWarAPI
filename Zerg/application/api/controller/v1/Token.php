@@ -15,7 +15,7 @@ class Token
 {
     public function getToken($code=''){
         (new TokenGet())->gocheck();
-        return (new TokenService($code))->get();
+        return json((new TokenService($code))->get());
         
     }
 }

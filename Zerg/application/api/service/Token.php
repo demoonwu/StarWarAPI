@@ -9,7 +9,7 @@
 namespace app\api\service;
 
 
-use think\Exception;
+use app\lib\exception\WeixinException;
 
 class Token
 {
@@ -30,19 +30,30 @@ class Token
         $this->wxLoginUrl = sprintf(config('wxsetting.login_url'),$this->wxAppId,$this->wxAppSecret,$this->code);
     }
     
+    /**
+     * @return mixed
+     */
     public function get(){
+        //这里使用了自定义的curl_get方法
         $result=curl_get($this->wxLoginUrl);
         $wxResult = json_decode($result,true);
         
-//        if(empty($wxResult)){
-//            throw new Exception('获取session_key及openID异常，微信内部错误')；
-//        }else{
-//            $loginFail=array_key_exists('errcode',$wxResult);
-//            if($loginFail){
-//
-//            }else
-//        }
+        if(empty($wxResult)){
+            throw new Exception('获取session_key及openID异常，服务器内部错误');
+        }else{
+            $loginFail=array_key_exists('errcode',$wxResult);
+            if($loginFail){
+                $this->processLoginError($wxResult);
+            }else{
+                return $wxResult;
+            }
+        }
     }
     
-//    private function
+    private function processLoginError($wxResult){
+        throw new WeixinException([
+            'errorCode'=>$wxResult['errcode'],
+            'msg'=>$wxResult['errmsg']
+        ]);
+    }
 }
