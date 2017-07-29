@@ -11,5 +11,10 @@ namespace app\api\model;
 
 class User extends BaseModel
 {
-
+    
+    protected $autoWriteTimestamp = true;
+    public static function getUserByOpenId($openid){
+        $user = self::where("openid","=",$openid)->find();
+        return $user;
+    }
 }

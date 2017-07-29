@@ -17,6 +17,11 @@
  * 自己封装的curl操作方法
  * @date 2017/07/25 22:51
  */
+/**
+ * @param $url
+ * @param int $httpCode
+ * @return mixed
+ */
 function curl_get($url,&$httpCode=0){
     $ch=curl_init();
     curl_setopt($ch,CURLOPT_URL,$url);
@@ -30,4 +35,22 @@ function curl_get($url,&$httpCode=0){
     $httpCode=curl_getinfo($ch,CURLINFO_HTTP_CODE);
     curl_close($ch);
     return $file_contents;
+}
+
+/**
+ * @param $length
+ * @return null|string
+ */
+function getRandChar($length){
+        $str = null;
+        $strPol = "QWERTYUIOPPASDFGHJKLZXCVBNMM0123456789qwertyuiopasdfghjklzxcvbnm";
+        $max=strlen($strPol)-1;
+        
+        for ($i=0;$i<=$length;$i++){
+            $str.=$strPol[rand(0,$max)];
+        }
+        
+        return $str;
+        
+
 }

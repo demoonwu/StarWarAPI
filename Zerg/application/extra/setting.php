@@ -8,5 +8,6 @@
  * @功能：一些自动加载的配置项
  */
 return[
-	'img_prefix'=>'http://wuyongwei.com/images'
+    'img_prefix'=>'http://wuyongwei.com/images',
+    'token_expire_in'=>7200 // 60*60*2 设置token过期时间为两个小时
 ]; 

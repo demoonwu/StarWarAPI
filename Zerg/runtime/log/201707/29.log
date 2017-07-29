@@ -1,0 +1,19 @@
+---------------------------------------------------------------
+[ 2017-07-29T22:39:37+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.261015s][吞吐率：3.83req/s] [内存消耗：2,699.73kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oaW7w0P5uIZYlrSw0G8VVwuEU_1M' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-07-29T22:39:58+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.264015s][吞吐率：3.79req/s] [内存消耗：2,704.58kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oaW7w0P5uIZYlrSw0G8VVwuEU_1M' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`openid` , `create_time` , `update_time`) VALUES ('oaW7w0P5uIZYlrSw0G8VVwuEU_1M' , 1501339198 , 1501339198) [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2017-07-29T22:40:12+08:00 ] 127.0.0.1 127.0.0.1 POST /api/v1/token/user
+[ info ] wuyongwei.com/api/v1/token/user [运行时间：0.281016s][吞吐率：3.56req/s] [内存消耗：2,699.73kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oaW7w0P5uIZYlrSw0G8VVwuEU_1M' LIMIT 1 [ RunTime:0.001000s ]

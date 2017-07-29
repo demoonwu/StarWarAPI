@@ -9,13 +9,16 @@
 namespace app\api\controller\v1;
 
 
-use app\api\validate\TokenGet;
-use app\api\service\Token as TokenService;
+use app\api\validate\TokenValidate;
+use app\api\service\UserToken as TokenService;
 class Token
 {
     public function getToken($code=''){
-        (new TokenGet())->gocheck();
-        return json((new TokenService($code))->get());
+        (new TokenValidate())->gocheck();
+        $token=(new TokenService($code))->get();
+        return json([
+            'token'=>$token
+        ]);
         
     }
 }

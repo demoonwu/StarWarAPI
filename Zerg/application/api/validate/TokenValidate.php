@@ -9,7 +9,7 @@
 namespace app\api\validate;
 
 
-class TokenGet extends BaseValidate
+class TokenValidate extends BaseValidate
 {
     protected $rule=[
 //        ['code','require|isNotEmpty','code必须传入|code不能为空']
